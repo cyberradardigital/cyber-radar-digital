@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Cyber Radar Systems",
-  description:"Cyber Radar Systems is a leading provider of security solutions and services designed to protect sensitive data in the cloud, on-premises, and at the endpoint. Our solutions include Security Threat Compliance, SOC 1 Compliance, Endpoint Data Loss Protection, HIPAA Compliance, and more. We help organizations stay ahead of evolving cyber threats and ensure compliance with industry standards.",
+  description:"Cyber Radar Systems is a leading provider of security solutions and services designed to protect sensitive data in the cloud, on-premises, and at the endpoint. Our solutions include Security Threat Compliance, SOC 1 Compliance, Endpoint Data Loss Protection, HIPAA Compliance,and more. We help organizations stay ahead of evolving cyber threats and ensure compliance with industry standards.",
 };
 
 export default function RootLayout({ children }) {
