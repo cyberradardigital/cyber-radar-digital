@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import AutoCarousel from '@/components/AutoCarousel';
 
 export default function Home() {
   return (
@@ -47,6 +48,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Auto-Scrolling Carousel Banner */}
+      <AutoCarousel />
 
       {/* Our Services */}
       <section id="services" className="px-4 md:px-8 py-16 md:py-24 max-w-7xl mx-auto">
