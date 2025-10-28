@@ -5,8 +5,9 @@ export default function Navbar({ currentPage = 'home' }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between px-4 md:px-8 py-4 max-w-7xl mx-auto relative">
-      <a href="/" className="group">
+    <header className="sticky top-0 z-50 bg-gradient-to-r from-[#00bcd4] via-[#0097a7] to-[#006064] shadow-lg">
+      <nav className="flex items-center justify-between px-4 md:px-8 py-4 max-w-7xl mx-auto relative">
+        <a href="/" className="group">
         <img 
           src="/logo-1.png" 
           alt="Cyber Radar Systems Logo" 
@@ -250,6 +251,7 @@ export default function Navbar({ currentPage = 'home' }) {
           </div>
         </div>
       )}
-    </nav>
+      </nav>
+    </header>
   );
 }
