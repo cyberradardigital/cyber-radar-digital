@@ -14,7 +14,7 @@ export default function SOC2Compliance() {
       <Navbar currentPage="solutions" />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-[#0d2340] to-[#0a1628] py-12 sm:py-16 md:py-20 border-b border-gray-800 overflow-hidden">
+      <section className="relative bg-gradient-to-b from-[#0d2340] to-[#0a1628] py-12 sm:py-16 md:py-20 pt-24 md:pt-28 border-b border-gray-800 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 text-center">
           <AnimatedHeading animationType="fadeDown" delay={0.2} className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
             SOC 2 Compliance Services

@@ -5,7 +5,7 @@ export default function Navbar({ currentPage = 'home' }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-gradient-to-r from-[#00bcd4] via-[#0097a7] to-[#006064] shadow-lg">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-[#00bcd4] via-[#0097a7] to-[#006064] shadow-lg">
       <nav className="flex items-center justify-between px-4 md:px-8 py-4 max-w-7xl mx-auto relative">
         <a href="/" className="group">
         <img 

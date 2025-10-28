@@ -278,6 +278,24 @@ html {
   perspective: 1000px;
 }
 
+/* Testimonial Scroll Animation */
+@keyframes testimonial-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.testimonial-scroll-container {
+  animation: testimonial-scroll 30s linear infinite;
+}
+
+.testimonial-scroll-container:hover {
+  animation-play-state: paused;
+}
+
 /* Reduce motion for users who prefer it */
 @media (prefers-reduced-motion: reduce) {
   *,

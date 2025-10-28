@@ -1,14 +1,33 @@
 'use client';
+import { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export default function Home() {
+  useEffect(() => {
+    // Add animation styles on client-side only
+    const style = document.createElement('style');
+    style.textContent = `
+      @keyframes testimonial-scroll {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+      }
+      .testimonial-scroll-container {
+        animation: testimonial-scroll 30s linear infinite;
+      }
+      .testimonial-scroll-container:hover {
+        animation-play-state: paused;
+      }
+    `;
+    document.head.appendChild(style);
+    return () => document.head.removeChild(style);
+  }, []);
   return (
     <div className="min-h-screen bg-[#0F1E2E] text-white">
       <Navbar currentPage="home" />
 
       {/* Hero Section */}
-      <section className="px-4 md:px-8 py-16 md:py-24 lg:py-28 max-w-7xl mx-auto">
+      <section className="px-4 md:px-8 py-16 md:py-24 lg:py-28 max-w-7xl mx-auto bg-gradient-to-br from-[#0a1a2e] to-[#16213e] pt-24 md:pt-28">
         <div className="flex flex-col md:flex-row items-center justify-between gap-10 md:gap-16">
           <div className="flex-1 text-center md:text-left">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 md:mb-8">
@@ -55,8 +74,12 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Divider */}
+      <div className="h-px bg-gradient-to-r from-transparent via-gray-700 to-transparent"></div>
+
       {/* Top 12 In-Demand Cybersecurity Services */}
-      <section className="px-4 md:px-8 py-16 md:py-24 max-w-7xl mx-auto">
+      <section className="px-4 md:px-8 py-16 md:py-24 bg-gradient-to-br from-[#0f2027] via-[#203a43] to-[#2c5364]">
+        <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-10 md:mb-14 text-center">Our High-Demand Services</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           <div className="bg-[#15283A] p-6 md:p-8 rounded-2xl border border-gray-700 hover:border-[#00D68F] transition-all hover:transform hover:-translate-y-2">
@@ -132,26 +155,14 @@ export default function Home() {
             </p>
           </div>
         </div>
+        </div>
       </section>
 
+      {/* Divider */}
+      <div className="h-px bg-gradient-to-r from-transparent via-emerald-700/50 to-transparent"></div>
+
       {/* Testimonials Section */}
-      <section className="py-16 md:py-20 bg-gradient-to-b from-[#0F1E2E] to-[#15283A] overflow-hidden">
-        <style dangerouslySetInnerHTML={{__html: `
-          @keyframes testimonial-scroll {
-            0% {
-              transform: translateX(0);
-            }
-            100% {
-              transform: translateX(-50%);
-            }
-          }
-          .testimonial-scroll-container {
-            animation: testimonial-scroll 30s linear infinite;
-          }
-          .testimonial-scroll-container:hover {
-            animation-play-state: paused;
-          }
-        `}} />
+      <section className="py-16 md:py-20 bg-gradient-to-br from-[#1a1a2e] to-[#16213e] overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 md:px-8 mb-10 md:mb-14">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center">
             What Our <span className="text-emerald-400">Clients Say</span>
@@ -253,8 +264,12 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Divider */}
+      <div className="h-px bg-gradient-to-r from-transparent via-blue-700/50 to-transparent"></div>
+
       {/* Case Studies */}
-      <section id="case-studies" className="px-4 md:px-8 py-16 md:py-20 max-w-7xl mx-auto">
+      <section id="case-studies" className="px-4 md:px-8 py-16 md:py-20 bg-gradient-to-br from-[#0d1117] to-[#1a1f2e]">
+        <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-10 md:mb-14 text-center">
           Our Recent <span className="text-[#00B0FF]">Case Studies</span>
         </h2>
@@ -318,6 +333,7 @@ export default function Home() {
               Successfully recovered and fortified a retail chain after ransomware attack. Implemented backup systems and employee security training programs.
             </p>
           </div>
+        </div>
         </div>
       </section>
 

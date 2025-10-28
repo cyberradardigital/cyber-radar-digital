@@ -14,7 +14,7 @@ export default function DigitalForensics() {
       <Navbar currentPage="services" />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-[#0d2340] to-[#0a1628] py-8 sm:py-12 md:py-16 lg:py-20 border-b border-gray-800 overflow-hidden">
+      <section className="relative bg-gradient-to-b from-[#0d2340] to-[#0a1628] py-8 sm:py-12 md:py-16 lg:py-20 pt-24 md:pt-28 border-b border-gray-800 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 text-center">
           <SplitTextReveal className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-3 sm:mb-4 md:mb-6">
             Digital Forensics
