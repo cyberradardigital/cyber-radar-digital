@@ -134,41 +134,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why Choose Us */}
-      <section id="about" className="px-4 md:px-8 py-16 md:py-20 max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-10 md:mb-14 text-center md:text-left text-[#00B0FF]">Why Choose Us</h2>
-        <div className="grid md:grid-cols-2 gap-10 md:gap-16">
-          <div>
-            <p className="text-[#A7B6C5] leading-relaxed text-base md:text-lg text-center md:text-left">
-              We provide comprehensive cybersecurity solutions tailored to your business needs, ensuring robust protection against cyber threats.
-            </p>
-          </div>
-          <div className="space-y-5 md:space-y-6">
-            <div className="flex items-center gap-3">
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="10" cy="10" r="8" stroke="#00D68F" strokeWidth="2" fill="none"/>
-                <path d="M6 10 L9 13 L14 7" stroke="#00D68F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-              <span className="text-gray-200 text-base md:text-lg">Expert Support</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="10" cy="10" r="8" stroke="#00D68F" strokeWidth="2" fill="none"/>
-                <path d="M6 10 L9 13 L14 7" stroke="#00D68F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-              <span className="text-gray-200 text-base md:text-lg">Proactive Approach</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="10" cy="10" r="8" stroke="#00D68F" strokeWidth="2" fill="none"/>
-                <path d="M6 10 L9 13 L14 7" stroke="#00D68F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-              <span className="text-gray-200 text-base md:text-lg">24/7 Monitoring</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Testimonials Section */}
       <section className="py-16 md:py-20 bg-gradient-to-b from-[#0F1E2E] to-[#15283A] overflow-hidden">
         <style dangerouslySetInnerHTML={{__html: `
