@@ -60,73 +60,73 @@ export default function Home() {
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-10 md:mb-14 text-center">Our High-Demand Services</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           <div className="bg-[#15283A] p-6 md:p-8 rounded-2xl border border-gray-700 hover:border-[#00D68F] transition-all hover:transform hover:-translate-y-2">
-            <div className="text-[#00D68F] text-lg font-semibold mb-3">1. Managed Security & MDR</div>
+            <div className="text-[#00D68F] text-lg font-semibold mb-3">Managed Security & MDR</div>
             <p className="text-[#A7B6C5] text-sm leading-relaxed">
               24×7 threat detection, incident response, and managed defense services.
             </p>
           </div>
           <div className="bg-[#15283A] p-6 md:p-8 rounded-2xl border border-gray-700 hover:border-[#00D68F] transition-all hover:transform hover:-translate-y-2">
-            <div className="text-[#00D68F] text-lg font-semibold mb-3">2. Cloud Security</div>
+            <div className="text-[#00D68F] text-lg font-semibold mb-3">Cloud Security</div>
             <p className="text-[#A7B6C5] text-sm leading-relaxed">
               Comprehensive protection for AWS, Azure, and Google Cloud environments.
             </p>
           </div>
           <div className="bg-[#15283A] p-6 md:p-8 rounded-2xl border border-gray-700 hover:border-[#00D68F] transition-all hover:transform hover:-translate-y-2">
-            <div className="text-[#00D68F] text-lg font-semibold mb-3">3. Identity & Access Management</div>
+            <div className="text-[#00D68F] text-lg font-semibold mb-3">Identity & Access Management</div>
             <p className="text-[#A7B6C5] text-sm leading-relaxed">
               Secure authentication, SSO, and privilege control across hybrid systems.
             </p>
           </div>
           <div className="bg-[#15283A] p-6 md:p-8 rounded-2xl border border-gray-700 hover:border-[#00D68F] transition-all hover:transform hover:-translate-y-2">
-            <div className="text-[#00D68F] text-lg font-semibold mb-3">4. Application & API Security</div>
+            <div className="text-[#00D68F] text-lg font-semibold mb-3">Application & API Security</div>
             <p className="text-[#A7B6C5] text-sm leading-relaxed">
               Defend web, mobile, and API endpoints through DevSecOps integration.
             </p>
           </div>
           <div className="bg-[#15283A] p-6 md:p-8 rounded-2xl border border-gray-700 hover:border-[#00D68F] transition-all hover:transform hover:-translate-y-2">
-            <div className="text-[#00D68F] text-lg font-semibold mb-3">5. Data Security & Privacy Compliance</div>
+            <div className="text-[#00D68F] text-lg font-semibold mb-3">Data Security & Privacy Compliance</div>
             <p className="text-[#A7B6C5] text-sm leading-relaxed">
               Data encryption, governance, and GDPR/CCPA compliance consulting.
             </p>
           </div>
           <div className="bg-[#15283A] p-6 md:p-8 rounded-2xl border border-gray-700 hover:border-[#00D68F] transition-all hover:transform hover:-translate-y-2">
-            <div className="text-[#00D68F] text-lg font-semibold mb-3">6. Network Security / Zero-Trust</div>
+            <div className="text-[#00D68F] text-lg font-semibold mb-3">Network Security / Zero-Trust</div>
             <p className="text-[#A7B6C5] text-sm leading-relaxed">
               Next-gen firewalls, SASE, and zero-trust network architecture design.
             </p>
           </div>
           <div className="bg-[#15283A] p-6 md:p-8 rounded-2xl border border-gray-700 hover:border-[#00D68F] transition-all hover:transform hover:-translate-y-2">
-            <div className="text-[#00D68F] text-lg font-semibold mb-3">7. IoT & OT Security</div>
+            <div className="text-[#00D68F] text-lg font-semibold mb-3">IoT & OT Security</div>
             <p className="text-[#A7B6C5] text-sm leading-relaxed">
               Protect smart devices, industrial systems, and operational networks.
             </p>
           </div>
           <div className="bg-[#15283A] p-6 md:p-8 rounded-2xl border border-gray-700 hover:border-[#00D68F] transition-all hover:transform hover:-translate-y-2">
-            <div className="text-[#00D68F] text-lg font-semibold mb-3">8. Risk & Supply-Chain Security</div>
+            <div className="text-[#00D68F] text-lg font-semibold mb-3">Risk & Supply-Chain Security</div>
             <p className="text-[#A7B6C5] text-sm leading-relaxed">
               Third-party risk assessment and vendor security management.
             </p>
           </div>
           <div className="bg-[#15283A] p-6 md:p-8 rounded-2xl border border-gray-700 hover:border-[#00D68F] transition-all hover:transform hover:-translate-y-2">
-            <div className="text-[#00D68F] text-lg font-semibold mb-3">9. Incident Response & Forensics</div>
+            <div className="text-[#00D68F] text-lg font-semibold mb-3">Incident Response & Forensics</div>
             <p className="text-[#A7B6C5] text-sm leading-relaxed">
               Rapid breach investigation and containment with expert forensics.
             </p>
           </div>
           <div className="bg-[#15283A] p-6 md:p-8 rounded-2xl border border-gray-700 hover:border-[#00D68F] transition-all hover:transform hover:-translate-y-2">
-            <div className="text-[#00D68F] text-lg font-semibold mb-3">10. Threat Intelligence & Hunting</div>
+            <div className="text-[#00D68F] text-lg font-semibold mb-3">Threat Intelligence & Hunting</div>
             <p className="text-[#A7B6C5] text-sm leading-relaxed">
               Proactive detection using global threat feeds and behavioral analytics.
             </p>
           </div>
           <div className="bg-[#15283A] p-6 md:p-8 rounded-2xl border border-gray-700 hover:border-[#00D68F] transition-all hover:transform hover:-translate-y-2">
-            <div className="text-[#00D68F] text-lg font-semibold mb-3">11. Security Awareness & Training</div>
+            <div className="text-[#00D68F] text-lg font-semibold mb-3">Security Awareness & Training</div>
             <p className="text-[#A7B6C5] text-sm leading-relaxed">
               Employee and developer training to prevent phishing and coding risks.
             </p>
           </div>
           <div className="bg-[#15283A] p-6 md:p-8 rounded-2xl border border-gray-700 hover:border-[#00D68F] transition-all hover:transform hover:-translate-y-2">
-            <div className="text-[#00D68F] text-lg font-semibold mb-3">12. Secure Cloud Migration</div>
+            <div className="text-[#00D68F] text-lg font-semibold mb-3">Secure Cloud Migration</div>
             <p className="text-[#A7B6C5] text-sm leading-relaxed">
               Security assessment and compliance during digital transformation.
             </p>
@@ -297,7 +297,7 @@ export default function Home() {
           {/* Case Study 1 */}
           <div className="bg-[#15283A] rounded-2xl p-6 md:p-8 border border-gray-700 hover:border-[#00B0FF] transition-all duration-300 hover:shadow-xl hover:shadow-[#00B0FF]/20 hover:transform hover:-translate-y-1 group">
             <h3 className="text-xl md:text-2xl font-bold mb-4 text-white group-hover:text-[#00B0FF] transition-colors">
-              1. Enterprise Data Breach Prevention
+              Enterprise Data Breach Prevention
             </h3>
             <p className="text-[#A7B6C5] text-sm md:text-base leading-relaxed">
               Implemented advanced threat detection and zero-trust architecture for a Fortune 500 company, preventing potential data breaches and securing 50,000+ endpoints globally.
@@ -307,7 +307,7 @@ export default function Home() {
           {/* Case Study 2 */}
           <div className="bg-[#15283A] rounded-2xl p-6 md:p-8 border border-gray-700 hover:border-[#00D68F] transition-all duration-300 hover:shadow-xl hover:shadow-[#00D68F]/20 hover:transform hover:-translate-y-1 group">
             <h3 className="text-xl md:text-2xl font-bold mb-4 text-white group-hover:text-[#00D68F] transition-colors">
-              2. Cloud Security Migration
+              Cloud Security Migration
             </h3>
             <p className="text-[#A7B6C5] text-sm md:text-base leading-relaxed">
               Delivered a scalable cloud security solution using AWS and Azure. Integrated AI-powered analytics and automated incident response workflows for 24/7 protection.
@@ -317,7 +317,7 @@ export default function Home() {
           {/* Case Study 3 */}
           <div className="bg-[#15283A] rounded-2xl p-6 md:p-8 border border-gray-700 hover:border-[#00B0FF] transition-all duration-300 hover:shadow-xl hover:shadow-[#00B0FF]/20 hover:transform hover:-translate-y-1 group">
             <h3 className="text-xl md:text-2xl font-bold mb-4 text-white group-hover:text-[#00B0FF] transition-colors">
-              3. Financial Services Compliance
+              Financial Services Compliance
             </h3>
             <p className="text-[#A7B6C5] text-sm md:text-base leading-relaxed">
               Achieved full PCI-DSS and SOC 2 compliance for a leading fintech platform. Implemented end-to-end encryption and real-time fraud detection systems.
@@ -327,7 +327,7 @@ export default function Home() {
           {/* Case Study 4 */}
           <div className="bg-[#15283A] rounded-2xl p-6 md:p-8 border border-gray-700 hover:border-[#00D68F] transition-all duration-300 hover:shadow-xl hover:shadow-[#00D68F]/20 hover:transform hover:-translate-y-1 group">
             <h3 className="text-xl md:text-2xl font-bold mb-4 text-white group-hover:text-[#00D68F] transition-colors">
-              4. Healthcare Data Protection
+              Healthcare Data Protection
             </h3>
             <p className="text-[#A7B6C5] text-sm md:text-base leading-relaxed">
               Secured patient data for a healthcare network with HIPAA-compliant infrastructure. Deployed secure access controls and encrypted communication channels.
@@ -337,7 +337,7 @@ export default function Home() {
           {/* Case Study 5 */}
           <div className="bg-[#15283A] rounded-2xl p-6 md:p-8 border border-gray-700 hover:border-[#00B0FF] transition-all duration-300 hover:shadow-xl hover:shadow-[#00B0FF]/20 hover:transform hover:-translate-y-1 group">
             <h3 className="text-xl md:text-2xl font-bold mb-4 text-white group-hover:text-[#00B0FF] transition-colors">
-              5. IoT Security Framework
+              IoT Security Framework
             </h3>
             <p className="text-[#A7B6C5] text-sm md:text-base leading-relaxed">
               Developed comprehensive IoT security framework for smart manufacturing facility, protecting 10,000+ connected devices from cyber threats and vulnerabilities.
@@ -347,7 +347,7 @@ export default function Home() {
           {/* Case Study 6 */}
           <div className="bg-[#15283A] rounded-2xl p-6 md:p-8 border border-gray-700 hover:border-[#00D68F] transition-all duration-300 hover:shadow-xl hover:shadow-[#00D68F]/20 hover:transform hover:-translate-y-1 group">
             <h3 className="text-xl md:text-2xl font-bold mb-4 text-white group-hover:text-[#00D68F] transition-colors">
-              6. Ransomware Recovery Solution
+              Ransomware Recovery Solution
             </h3>
             <p className="text-[#A7B6C5] text-sm md:text-base leading-relaxed">
               Successfully recovered and fortified a retail chain after ransomware attack. Implemented backup systems and employee security training programs.
