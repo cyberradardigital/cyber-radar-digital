@@ -1,0 +1,12 @@
+Card 1: Managed Security & MDR - Purple/Fuchsia
+Card 2: Cloud Security - Blue/Cyan
+Card 3: Identity & Access - Emerald/Teal
+Card 4: Application & API - Orange/Amber
+Card 5: Data Security - Pink/Rose
+Card 6: Network Security - Indigo/Violet
+Card 7: IoT & OT - Green/Lime
+Card 8: Risk & Supply-Chain - Red/Orange
+Card 9: Incident Response - Yellow/Amber
+Card 10: Threat Intelligence - Purple/Indigo
+Card 11: Security Training - Cyan/Sky
+Card 12: Cloud Migration - Teal/Emerald
