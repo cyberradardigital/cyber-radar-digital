@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Footer() {
   return (
     <footer className="bg-[#0A1623] border-t border-gray-800">
@@ -6,9 +8,11 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="mb-4 md:mb-6">
-              <img 
+              <Image 
                 src="/logo-1.png" 
-                alt="Cyber Radar Systems Logo" 
+                alt="Cyber Radar Systems Logo"
+                width={140}
+                height={56}
                 className="h-12 w-auto md:h-14"
               />
             </div>

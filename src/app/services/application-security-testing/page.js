@@ -64,7 +64,7 @@ export default function ApplicationSecurityTesting() {
         <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16">
           <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden rounded-lg shadow-xl">
             <img 
-              src="/markus-spiske-iar-afB0QQw-unsplash.jpg" 
+              src="/markus-spiske-uPXs5Vx5bIg-unsplash.jpg" 
               alt="Application Security Testing Team" 
               className="w-full h-full object-cover"
             />

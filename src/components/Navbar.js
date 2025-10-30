@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function Navbar({ currentPage = 'home' }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -8,9 +9,12 @@ export default function Navbar({ currentPage = 'home' }) {
     <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-[#00bcd4] via-[#0097a7] to-[#006064] shadow-lg">
       <nav className="flex items-center justify-between px-4 md:px-8 py-2.5 max-w-7xl mx-auto relative">
         <a href="/" className="group">
-        <img 
+        <Image 
           src="/logo-1.png" 
           alt="Cyber Radar Systems Logo" 
+          width={120}
+          height={40}
+          priority
           className="h-8 w-auto md:h-10 transition-transform duration-300 group-hover:scale-105"
         />
       </a>
