@@ -47,7 +47,7 @@ export default function IntegratedDLP() {
         {/* Full Width Image Section */}
         <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16">
           <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden rounded-lg shadow-xl">
-            <img src="/scott-webb-yekGLpc3vro-unsplash.jpg" alt="Integrated DLP Process" className="w-full h-full object-cover" />
+            <img src="/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt="Integrated DLP Process" className="w-full h-full object-cover" />
           </div>
         </div>
 

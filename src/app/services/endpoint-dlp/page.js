@@ -47,7 +47,7 @@ export default function EndpointDLP() {
         {/* Full Width Image Section */}
         <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16">
           <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden rounded-lg shadow-xl">
-            <img src="/adi-goldstein-Hli3R6LKibo-unsplash.jpg" alt="Endpoint DLP Process" className="w-full h-full object-cover" />
+            <img src="/adi-goldstein-EUsVwEOsblE-unsplash.jpg" alt="Endpoint DLP Process" className="w-full h-full object-cover" />
           </div>
         </div>
 
