@@ -12,8 +12,50 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Cyber Radar Systems",
-  description:"Cyber Radar Systems is a leading provider of security solutions and services designed to protect sensitive data in the cloud, on-premises, and at the endpoint. Our solutions include Security Threat Compliance, SOC 1 Compliance, Endpoint Data Loss Protection, HIPAA Compliance,and more. We help organizations stay ahead of evolving cyber threats and ensure compliance with industry standards.",
+  metadataBase: new URL('https://www.cyberradarsystems.com'),
+  title: "Global Cybersecurity, IT Defense, Managed Security & Cloud Protection",
+  description: "Protect your business with Cyber Radar Systems — global cybersecurity, IT defense, managed security, and cloud protection solutions built for enterprise resilience.",
+  keywords: "Cybersecurity, Global Cybersecurity, IT Defense, Managed Security Services, MDR, Cloud Protection, Cloud Security, Cyber Threat Monitoring, Network Security, Data Protection, Incident Response, Cyber Defense Solutions, Security Operations Center, SOC, Risk Assessment, Cyber Consulting, Cyber Radar Systems",
+  authors: [{ name: "Cyber Radar Systems" }],
+  creator: "Cyber Radar Systems",
+  publisher: "Cyber Radar Systems",
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://www.cyberradarsystems.com/",
+  },
+  openGraph: {
+    type: "website",
+    url: "https://www.cyberradarsystems.com/",
+    title: "Cyber Radar Systems | Global Cybersecurity & Cloud Protection",
+    description: "Protect your business with Cyber Radar Systems — global cybersecurity, IT defense, managed security, and cloud protection solutions built for enterprise resilience.",
+    siteName: "Cyber Radar Systems",
+    images: [
+      {
+        url: "https://www.cyberradarsystems.com/images/crs.webp",
+        width: 1200,
+        height: 630,
+        alt: "Cyber Radar Systems - Global Cybersecurity, IT Defense, Managed Security & Cloud Protection",
+        type: "image/webp",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Cyber Radar Systems | Global Cybersecurity & Cloud Protection",
+    description: "Protect your business with Cyber Radar Systems — global cybersecurity, IT defense, managed security, and cloud protection solutions built for enterprise resilience.",
+    creator: "@Cyberradarsystm",
+    site: "@Cyberradarsystm",
+    images: [
+      {
+        url: "https://www.cyberradarsystems.com/images/crs.webp",
+        alt: "Cyber Radar Systems - Global Cybersecurity, IT Defense, Managed Security & Cloud Protection",
+      },
+    ],
+  },
+  other: {
+    "theme-color": "#163FD9",
+    copyright: "© 2026",
+  },
 };
 
 export default function RootLayout({ children }) {

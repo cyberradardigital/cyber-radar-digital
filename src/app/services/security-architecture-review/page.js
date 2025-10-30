@@ -40,13 +40,6 @@ export default function SecurityArchitectureReview() {
       {/* Main Content */}
       <section className="py-8 sm:py-10 md:py-12 lg:py-16 xl:py-20 max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
         
-        {/* Full Width Image Section */}
-        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16 max-w-4xl mx-auto">
-          <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden rounded-lg shadow-xl">
-            <img src="/steve-johnson-luT1PtFOWZU-unsplash.webp" alt="Security Architecture Review Process" className="w-full h-full object-cover" />
-          </div>
-        </div>
-
         {/* Introduction */}
         <AnimatedSection animationType="fadeUp" delay={0.2} className="mb-12 sm:mb-16 md:mb-20">
           <div className="bg-gradient-to-r from-[#0d2340] to-[#0f1f33] rounded-lg p-6 sm:p-8 md:p-10 border border-emerald-400 shadow-2xl hover-glow hover-lift">
@@ -66,6 +59,13 @@ export default function SecurityArchitectureReview() {
             </div>
           </div>
         </AnimatedSection>
+
+        {/* Full Width Image Section */}
+        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16 max-w-4xl mx-auto">
+          <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden rounded-lg shadow-xl">
+            <img src="/steve-johnson-luT1PtFOWZU-unsplash.webp" alt="Security Architecture Review Process" className="w-full h-full object-cover" />
+          </div>
+        </div>
 
         {/* Review Components */}
         <div className="mb-12 sm:mb-16 md:mb-20">

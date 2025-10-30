@@ -33,13 +33,6 @@ export default function SOXITAudit() {
       {/* Main Content */}
       <section className="py-8 sm:py-10 md:py-12 lg:py-16 xl:py-20 max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
         
-        {/* Full Width Image Section */}
-        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16 max-w-4xl mx-auto">
-          <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden rounded-lg shadow-xl">
-            <img src="/jefferson-santos-9SoCnyQmkzI-unsplash.webp" alt="SOX IT Audit Process" className="w-full h-full object-cover" />
-          </div>
-        </div>
-
         {/* What we do */}
         <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16">
           <div className="bg-gradient-to-r from-[#0d2340] to-[#0f1f33] rounded-lg p-4 sm:p-5 md:p-6 lg:p-8 border border-gray-700 shadow-xl">
@@ -79,6 +72,13 @@ export default function SOXITAudit() {
             <p>
               The audit advisory experience us for our procedures for a few of years controlling and administers ISAE 3402 Report and is required has designed for supporting our users' compliance over financial reporting.
             </p>
+          </div>
+        </div>
+
+        {/* Full Width Image Section */}
+        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16 max-w-4xl mx-auto">
+          <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden rounded-lg shadow-xl">
+            <img src="/jefferson-santos-9SoCnyQmkzI-unsplash.webp" alt="SOX IT Audit Process" className="w-full h-full object-cover" />
           </div>
         </div>
 

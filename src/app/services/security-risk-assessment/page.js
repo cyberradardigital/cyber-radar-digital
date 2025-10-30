@@ -33,13 +33,6 @@ export default function SecurityRiskAssessment() {
       {/* Main Content */}
       <section className="py-8 sm:py-10 md:py-12 lg:py-16 xl:py-20 max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
         
-        {/* Full Width Image Section */}
-        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16 max-w-4xl mx-auto">
-          <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden rounded-lg shadow-xl">
-            <img src="/shubham-dhage-_rZnChsIFuQ-unsplash.webp" alt="Security Risk Assessment Process" className="w-full h-full object-cover" />
-          </div>
-        </div>
-
         {/* Hero Image */}
         <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16">
           <div className="bg-gradient-to-r from-[#0d2340] to-[#0f1f33] rounded-lg p-4 sm:p-5 md:p-6 lg:p-8 border border-gray-700 shadow-lg">
@@ -59,6 +52,13 @@ export default function SecurityRiskAssessment() {
             <p>
               Using our risk assessment and governance skills, we strive to support the governance, reporting, and evaluation of information and data security via our efficient risk management and risk mitigation security programs.
             </p>
+          </div>
+        </div>
+
+        {/* Full Width Image Section */}
+        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16 max-w-4xl mx-auto">
+          <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden rounded-lg shadow-xl">
+            <img src="/shubham-dhage-_rZnChsIFuQ-unsplash.webp" alt="Security Risk Assessment Process" className="w-full h-full object-cover" />
           </div>
         </div>
 
