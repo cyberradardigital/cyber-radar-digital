@@ -13,21 +13,40 @@ export default function SecurityConfigurationStandards() {
     <div className="min-h-screen bg-[#0a1628] text-white">
       <Navbar currentPage="solutions" />
 
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-[#0d2340] to-[#0a1628] py-12 sm:py-16 md:py-20 pt-24 md:pt-28 border-b border-gray-800 overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 text-center">
-          <AnimatedHeading animationType="fadeDown" delay={0.2} className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            Security Configuration Standards
-          </AnimatedHeading>
-          <AnimatedParagraph animationType="fadeUp" delay={0.3} className="text-gray-400 text-xs sm:text-sm uppercase tracking-wider">
-            CYBER RADAR SYSTEMS › HARDENING & BASELINE MANAGEMENT
-          </AnimatedParagraph>
+      {/* Hero Section with Banner Image */}
+      <section className="relative bg-gradient-to-r from-[#0d2340] via-[#0f3557] to-[#0d2340] py-8 sm:py-12 md:py-16 lg:py-20 pt-24 md:pt-28 border-b border-gray-800 overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div className="space-y-4 sm:space-y-6">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight animate-fade-in-down">Security Configuration Standards</h1>
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 leading-relaxed animate-fade-in-up delay-200">Hardening & Baseline Management</p>
+              <div className="pt-2 sm:pt-4">
+                <p className="text-gray-400 text-xs sm:text-sm uppercase tracking-wider">
+                  <a href="/" className="hover:text-emerald-400 transition-colors">Home</a>
+                  <span className="mx-1 sm:mx-2">›</span>
+                  <a href="/services" className="hover:text-emerald-400 transition-colors">Services</a>
+                  <span className="mx-1 sm:mx-2">›</span>
+                  <span className="text-emerald-400">Security Configuration Standards</span>
+                </p>
+              </div>
+            </div>
+            <div className="relative h-64 sm:h-80 md:h-96 lg:h-[400px] rounded-lg overflow-hidden shadow-2xl animate-fade-in-up delay-300">
+              <img src="/wesley-ford-biBRoGc7ir0-unsplash.jpg" alt="Security Configuration Standards" className="w-full h-full object-cover" />
+            </div>
+          </div>
         </div>
       </section>
 
       {/* Main Content */}
-      <section className="py-12 sm:py-16 md:py-20 max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+      <section className="py-8 sm:py-10 md:py-12 lg:py-16 xl:py-20 max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
         
+        {/* Full Width Image Section */}
+        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16">
+          <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden rounded-lg shadow-xl">
+            <img src="/adi-goldstein-EUsVwEOsblE-unsplash.jpg" alt="Security Configuration Standards Process" className="w-full h-full object-cover" />
+          </div>
+        </div>
+
         {/* Introduction */}
         <AnimatedSection animationType="fadeUp" delay={0.2} className="mb-12 sm:mb-16 md:mb-20">
           <div className="bg-gradient-to-r from-[#0d2340] to-[#0f1f33] rounded-lg p-6 sm:p-8 md:p-10 border border-emerald-400 shadow-2xl hover-glow hover-lift">

@@ -6,30 +6,38 @@ export default function DataLossPrevention() {
     <div className="min-h-screen bg-[#0a1628] text-white">
       <Navbar currentPage="home" />
 
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-[#0d2340] to-[#0a1628] py-8 sm:py-12 md:py-16 lg:py-20 pt-24 md:pt-28 border-b border-gray-800 overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 text-center">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-3 sm:mb-4 md:mb-6 animate-fade-in-down">Content Aware Data Loss Prevention</h1>
-          <p className="text-gray-400 text-xs sm:text-sm uppercase tracking-wider animate-fade-in-up delay-200">
-            <a href="/" className="hover:text-emerald-400 transition-colors">CYBER RADAR SYSTEMS</a>
-            <span className="mx-1 sm:mx-2 md:mx-3">›</span>
-            <span className="text-emerald-400">CONTENT AWARE DATA LOSS PREVENTION</span>
-          </p>
+      {/* Hero Section with Banner Image */}
+      <section className="relative bg-gradient-to-r from-[#0d2340] via-[#0f3557] to-[#0d2340] py-8 sm:py-12 md:py-16 lg:py-20 pt-24 md:pt-28 border-b border-gray-800 overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div className="space-y-4 sm:space-y-6">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight animate-fade-in-down">
+                Content Aware Data Loss Prevention
+              </h1>
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 leading-relaxed animate-fade-in-up delay-200">
+                Advanced Data Protection & Loss Prevention Solutions
+              </p>
+              <div className="pt-2 sm:pt-4">
+                <p className="text-gray-400 text-xs sm:text-sm uppercase tracking-wider">
+                  <a href="/" className="hover:text-emerald-400 transition-colors">Home</a>
+                  <span className="mx-1 sm:mx-2">›</span>
+                  <a href="/services" className="hover:text-emerald-400 transition-colors">Services</a>
+                  <span className="mx-1 sm:mx-2">›</span>
+                  <span className="text-emerald-400">Data Loss Prevention</span>
+                </p>
+              </div>
+            </div>
+            <div className="relative h-64 sm:h-80 md:h-96 lg:h-[400px] rounded-lg overflow-hidden shadow-2xl animate-fade-in-up delay-300">
+              <img src="/data_loss.jpg" alt="Data Loss Prevention" className="w-full h-full object-cover" />
+            </div>
+          </div>
         </div>
       </section>
 
       {/* Main Content */}
       <section className="py-8 sm:py-10 md:py-12 lg:py-16 xl:py-20 max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
         
-        {/* Hero Image and Description */}
         <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16">
-          <div className="rounded-lg overflow-hidden mb-6 sm:mb-8 md:mb-10 shadow-2xl">
-            <img 
-              src="/data_loss.jpg" 
-              alt="Content Aware Data Loss Prevention" 
-              className="w-full h-auto"
-            />
-          </div>
           <div className="bg-gradient-to-r from-[#0d2340] to-[#0f1f33] rounded-lg p-4 sm:p-5 md:p-6 lg:p-8 border border-gray-700 shadow-lg">
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 md:mb-5 text-white text-center">Content-aware Data Loss Prevention (DLP)</h2>
             <div className="space-y-3 sm:space-y-4 text-gray-300 text-sm sm:text-base leading-relaxed md:leading-relaxed text-center max-w-5xl mx-auto">
@@ -43,6 +51,13 @@ export default function DataLossPrevention() {
                 Content awareness is essential to do an ensured sensitive status role. At the point where information learns the enterprises when the content is being transmitted and when it is idle or in the information base center, you should ensure certain that the substance item (what's the info), the circumstance item (why is it quit), and how it's pre-guess when Content-Aware Data Loss prevention incorporates in your organization.
               </p>
             </div>
+          </div>
+        </div>
+
+        {/* Full Width Image Section */}
+        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16">
+          <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden rounded-lg shadow-xl">
+            <img src="/dan-nelson-AvSFPw5Tp68-unsplash.jpg" alt="Data Loss Prevention Process" className="w-full h-full object-cover" />
           </div>
         </div>
 
@@ -187,13 +202,28 @@ export default function DataLossPrevention() {
           </div>
         </div>
 
-        {/* Techniques and tools */}
-        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16 bg-gradient-to-r from-[#0f1f33] to-[#0d2340] border border-gray-700 rounded-lg p-4 sm:p-5 md:p-6 lg:p-8 shadow-xl">
-          <div className="flex items-center gap-3 sm:gap-4 mb-4 sm:mb-5 md:mb-6">
-            <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-full bg-emerald-400 flex items-center justify-center flex-shrink-0">
-              <svg className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-gray-900" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
-              </svg>
+        {/* How Content Aware Protection Process */}
+        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16">
+        <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4 sm:mb-5 md:mb-6 text-white">How Content Aware Protection Process</h2>
+        <div className="space-y-3 sm:space-y-4 text-gray-300 text-sm sm:text-base leading-relaxed md:leading-relaxed">
+          <div className="bg-[#0f1f33] border border-gray-700 rounded-lg p-4 sm:p-5 md:p-6 shadow-md">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5">
+              <div className="bg-[#0d1a2d] border-l-4 border-emerald-400 rounded-r-lg p-4 sm:p-5 hover:shadow-lg transition-all">
+                <span className="text-emerald-400 font-bold text-2xl sm:text-3xl block mb-2">1</span>
+                <span className="text-sm sm:text-base">Prepared Content-Aware biometric strategies</span>
+              </div>
+              <div className="bg-[#0d1a2d] border-l-4 border-emerald-400 rounded-r-lg p-4 sm:p-5 hover:shadow-lg transition-all">
+                <span className="text-emerald-400 font-bold text-2xl sm:text-3xl block mb-2">2</span>
+                <span className="text-sm sm:text-base">Characterize the sensitive substance for your business worth your organization's network</span>
+              </div>
+              <div className="bg-[#0d1a2d] border-l-4 border-emerald-400 rounded-r-lg p-4 sm:p-5 hover:shadow-lg transition-all">
+                <span className="text-emerald-400 font-bold text-2xl sm:text-3xl block mb-2">3</span>
+                <span className="text-sm sm:text-base">Scan and fiercely all data moved for sensitive data</span>
+              </div>
+              <div className="bg-[#0d1a2d] border-l-4 border-emerald-400 rounded-r-lg p-4 sm:p-5 hover:shadow-lg transition-all">
+                <span className="text-emerald-400 font-bold text-2xl sm:text-3xl block mb-2">4</span>
+                <span className="text-sm sm:text-base">Allow to trade if data is and our settings solution is identified</span>
+              </div>
             </div>
             <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-emerald-400">Techniques and tools for data loss prevention</h2>
           </div>
@@ -202,6 +232,7 @@ export default function DataLossPrevention() {
               Content-Aware catches and archive excellence instrument leaves the risk of unintended introduction of sensitive information outside approved demands. These approaches help financial information applying checking, controlling, and investigating approaches on organization arrangements than streamline solutions.
             </p>
           </div>
+        </div>
         </div>
 
         {/* Does Content-Aware DLP help */}

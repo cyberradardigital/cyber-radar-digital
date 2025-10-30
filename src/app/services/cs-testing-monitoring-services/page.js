@@ -6,15 +6,40 @@ export default function CSTestingMonitoringServices() {
     <div className="min-h-screen bg-[#0a1628] text-white">
       <Navbar currentPage="services" />
 
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-[#0d2340] to-[#0a1628] py-8 sm:py-12 md:py-16 lg:py-20 pt-24 md:pt-28 border-b border-gray-800 overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 text-center">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-3 sm:mb-4 md:mb-6 animate-fade-in-down">CS Testing and Monitoring Services</h1>
-          <p className="text-gray-400 text-xs sm:text-sm uppercase tracking-wider animate-fade-in-up delay-200">
-            <a href="/" className="hover:text-emerald-400 transition-colors">CYBER RADAR SYSTEMS</a>
-            <span className="mx-1 sm:mx-2 md:mx-3">›</span>
-            <span className="text-emerald-400">TESTING & MONITORING SERVICES</span>
-          </p>
+      {/* Hero Section with Banner Image */}
+      <section className="relative bg-gradient-to-r from-[#0d2340] via-[#0f3557] to-[#0d2340] py-8 sm:py-12 md:py-16 lg:py-20 pt-24 md:pt-28 border-b border-gray-800 overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            {/* Left Content */}
+            <div className="space-y-4 sm:space-y-6">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight animate-fade-in-down">
+                CS Testing and Monitoring Services
+              </h1>
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 leading-relaxed animate-fade-in-up delay-200">
+                Comprehensive Cyber Security Testing & Monitoring
+              </p>
+              
+              {/* Breadcrumb at bottom */}
+              <div className="pt-2 sm:pt-4">
+                <p className="text-gray-400 text-xs sm:text-sm uppercase tracking-wider">
+                  <a href="/" className="hover:text-emerald-400 transition-colors">Home</a>
+                  <span className="mx-1 sm:mx-2">›</span>
+                  <a href="/services" className="hover:text-emerald-400 transition-colors">Services</a>
+                  <span className="mx-1 sm:mx-2">›</span>
+                  <span className="text-emerald-400">CS Testing & Monitoring</span>
+                </p>
+              </div>
+            </div>
+            
+            {/* Right Image */}
+            <div className="relative h-64 sm:h-80 md:h-96 lg:h-[400px] rounded-lg overflow-hidden shadow-2xl animate-fade-in-up delay-300">
+              <img 
+                src="/CS testing and monitoring services_banner.jfif" 
+                alt="CS Testing and Monitoring Services" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -23,7 +48,7 @@ export default function CSTestingMonitoringServices() {
         
         {/* Introduction */}
         <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16">
-          <div className="bg-gradient-to-r from-[#0d2340] to-[#0f1f33] rounded-lg p-4 sm:p-5 md:p-6 lg:p-8 border border-emerald-400 shadow-2xl">
+          <div className="bg-gradient-to-r from-[#0d2340] to-[#0f1f33] rounded-lg p-4 sm:p-5 md:p-6 lg:p-8 border border-gray-700 shadow-xl">
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4 sm:mb-5 md:mb-6 text-emerald-400">Best Cyber Security Testing and Monitoring Services</h2>
             <div className="space-y-3 sm:space-y-4 text-gray-300 text-sm sm:text-base leading-relaxed md:leading-relaxed">
               <p>
@@ -109,6 +134,17 @@ export default function CSTestingMonitoringServices() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* Full Width Image Section */}
+        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16">
+          <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden rounded-lg shadow-xl">
+            <img 
+              src="/matthew-henry-yETqkLnhsUI-unsplash.jpg" 
+              alt="CS Testing Process" 
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
 

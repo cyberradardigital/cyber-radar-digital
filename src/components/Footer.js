@@ -38,8 +38,8 @@ export default function Footer() {
           <div>
             <h3 className="text-base md:text-lg font-semibold mb-4 md:mb-6 text-white uppercase">Important Links</h3>
             <ul className="space-y-2 md:space-y-3 text-gray-400 text-xs md:text-sm">
-              <li><a href="/penetration-testing" className="hover:text-[#00D68F] transition-colors uppercase">Penetration</a></li>
-              <li><a href="/digital-forensics" className="hover:text-[#00D68F] transition-colors uppercase">Digital Forensics</a></li>
+              <li><a href="/services/penetration-testing" className="hover:text-[#00D68F] transition-colors uppercase">Penetration</a></li>
+              <li><a href="/services/digital-forensics" className="hover:text-[#00D68F] transition-colors uppercase">Digital Forensics</a></li>
               <li><a href="/privacy-policy" className="hover:text-[#00D68F] transition-colors uppercase">Privacy & Policy</a></li>
               <li><a href="/terms-of-use" className="hover:text-[#00D68F] transition-colors uppercase">Terms of Use</a></li>
               <li><a href="/cookie-policy" className="hover:text-[#00D68F] transition-colors uppercase">Cookie Policy</a></li>
@@ -50,11 +50,11 @@ export default function Footer() {
           <div>
             <h3 className="text-base md:text-lg font-semibold mb-4 md:mb-6 text-white uppercase">Other Solutions</h3>
             <ul className="space-y-2 md:space-y-3 text-gray-400 text-xs md:text-sm">
-              <li><a href="/security-risk-assessment" className="hover:text-[#00D68F] transition-colors uppercase">Risk Assessment</a></li>
-              <li><a href="/vulnerability-management" className="hover:text-[#00D68F] transition-colors uppercase">Vulnerability</a></li>
-              <li><a href="/data-loss-prevention" className="hover:text-[#00D68F] transition-colors uppercase">Data Loss</a></li>
-              <li><a href="/sox-it-audit" className="hover:text-[#00D68F] transition-colors uppercase">SOX IT Audit</a></li>
-              <li><a href="/pci-dss-security-compliances" className="hover:text-[#00D68F] transition-colors uppercase">PCI DSS</a></li>
+              <li><a href="/services/security-risk-assessment" className="hover:text-[#00D68F] transition-colors uppercase">Risk Assessment</a></li>
+              <li><a href="/services/vulnerability-management" className="hover:text-[#00D68F] transition-colors uppercase">Vulnerability</a></li>
+              <li><a href="/services/data-loss-prevention" className="hover:text-[#00D68F] transition-colors uppercase">Data Loss</a></li>
+              <li><a href="/services/sox-it-audit" className="hover:text-[#00D68F] transition-colors uppercase">SOX IT Audit</a></li>
+              <li><a href="/services/pci-dss-security-compliances" className="hover:text-[#00D68F] transition-colors uppercase">PCI DSS</a></li>
             </ul>
           </div>
 
@@ -101,7 +101,7 @@ export default function Footer() {
       <div className="border-t border-gray-800 bg-[#050f1a]">
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-4 md:py-6 text-center">
           <p className="text-gray-500 text-xs md:text-sm">
-            Copyright ©2024 <span className="text-[#00D68F]">Cyber Radar Systems</span>. All Rights Reserved.
+            Copyright ©2025 <span className="text-[#00D68F]">Cyber Radar Systems</span>. All Rights Reserved.
           </p>
         </div>
       </div>

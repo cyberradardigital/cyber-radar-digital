@@ -6,29 +6,37 @@ export default function PCIDSSCompliances() {
     <div className="min-h-screen bg-[#0a1628] text-white">
       <Navbar currentPage="home" />
 
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-[#0d2340] to-[#0a1628] py-8 sm:py-12 md:py-16 lg:py-20 pt-24 md:pt-28 border-b border-gray-800 overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 text-center">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-3 sm:mb-4 md:mb-6 animate-fade-in-down">PCI DSS Security Compliances</h1>
-          <p className="text-gray-400 text-xs sm:text-sm uppercase tracking-wider animate-fade-in-up delay-200">
-            <a href="/" className="hover:text-emerald-400 transition-colors">CYBER RADAR SYSTEMS</a>
-            <span className="mx-1 sm:mx-2 md:mx-3">›</span>
-            <span className="text-emerald-400">PCI DSS SECURITY COMPLIANCES</span>
-          </p>
+      {/* Hero Section with Banner Image */}
+      <section className="relative bg-gradient-to-r from-[#0d2340] via-[#0f3557] to-[#0d2340] py-8 sm:py-12 md:py-16 lg:py-20 pt-24 md:pt-28 border-b border-gray-800 overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div className="space-y-4 sm:space-y-6">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight animate-fade-in-down">PCI DSS Security Compliances</h1>
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 leading-relaxed animate-fade-in-up delay-200">Payment Card Industry Data Security Standards</p>
+              <div className="pt-2 sm:pt-4">
+                <p className="text-gray-400 text-xs sm:text-sm uppercase tracking-wider">
+                  <a href="/" className="hover:text-emerald-400 transition-colors">Home</a>
+                  <span className="mx-1 sm:mx-2">›</span>
+                  <a href="/services" className="hover:text-emerald-400 transition-colors">Services</a>
+                  <span className="mx-1 sm:mx-2">›</span>
+                  <span className="text-emerald-400">PCI DSS Compliances</span>
+                </p>
+              </div>
+            </div>
+            <div className="relative h-64 sm:h-80 md:h-96 lg:h-[400px] rounded-lg overflow-hidden shadow-2xl animate-fade-in-up delay-300">
+              <img src="/PCI DSS Security Compliances.jpg" alt="PCI DSS Security" className="w-full h-full object-cover" />
+            </div>
+          </div>
         </div>
       </section>
 
       {/* Main Content */}
       <section className="py-8 sm:py-10 md:py-12 lg:py-16 xl:py-20 max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
         
-        {/* Hero Image */}
+        {/* Full Width Image Section */}
         <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16">
-          <div className="rounded-lg overflow-hidden shadow-2xl max-w-3xl mx-auto">
-            <img 
-              src="/PCI DSS Security Compliances.jpg" 
-              alt="PCI DSS Security Compliances" 
-              className="w-full h-auto"
-            />
+          <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden rounded-lg shadow-xl">
+            <img src="/growtika-s8G0Gbjyw4M-unsplash.jpg" alt="PCI DSS Compliance Process" className="w-full h-full object-cover" />
           </div>
         </div>
 

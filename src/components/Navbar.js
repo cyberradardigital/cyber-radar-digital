@@ -6,12 +6,12 @@ export default function Navbar({ currentPage = 'home' }) {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-[#00bcd4] via-[#0097a7] to-[#006064] shadow-lg">
-      <nav className="flex items-center justify-between px-4 md:px-8 py-4 max-w-7xl mx-auto relative">
+      <nav className="flex items-center justify-between px-4 md:px-8 py-2.5 max-w-7xl mx-auto relative">
         <a href="/" className="group">
         <img 
           src="/logo-1.png" 
           alt="Cyber Radar Systems Logo" 
-          className="h-10 w-auto md:h-12 transition-transform duration-300 group-hover:scale-105"
+          className="h-8 w-auto md:h-10 transition-transform duration-300 group-hover:scale-105"
         />
       </a>
 
@@ -40,12 +40,12 @@ export default function Navbar({ currentPage = 'home' }) {
         <div className="relative group">
           <a 
             href="#company" 
-            className={`${currentPage === 'company' ? 'text-[#00D68F] font-semibold' : 'text-white hover:text-[#00D68F]'} transition-colors cursor-pointer pb-8`}
+            className={`${currentPage === 'company' ? 'text-[#00D68F] font-semibold' : 'text-white hover:text-[#00D68F]'} transition-colors cursor-pointer`}
           >
             COMPANY
           </a>
-          <div className="absolute left-0 top-full mt-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-            <div className="bg-[#15283A] border border-gray-700 rounded shadow-xl py-2 min-w-[200px] mt-2">
+          <div className="absolute left-0 top-full mt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-[100] pointer-events-none group-hover:pointer-events-auto">
+            <div className="bg-[#15283A] border border-gray-700 rounded shadow-xl py-2 min-w-[200px]">
               <a href="/who-we-are" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">WHO WE ARE?</a>
               <a href="/what-we-do" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">WHAT WE DO?</a>
               <a href="/clients-testimonials" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">WHAT OUR CLIENTS SAY</a>
@@ -53,15 +53,15 @@ export default function Navbar({ currentPage = 'home' }) {
           </div>
         </div>
         <div className="relative group">
-          <a href="#solutions" className="text-white hover:text-[#00D68F] transition-colors cursor-pointer pb-8">SOLUTIONS</a>
-          <div className="absolute left-0 top-full mt-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-            <div className="bg-[#15283A] border border-gray-700 rounded shadow-xl py-2 min-w-[280px] mt-2">
+          <a href="#solutions" className="text-white hover:text-[#00D68F] transition-colors cursor-pointer">SOLUTIONS</a>
+          <div className="absolute left-0 top-full mt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-[100] pointer-events-none group-hover:pointer-events-auto">
+            <div className="bg-[#15283A] border border-gray-700 rounded shadow-xl py-2 min-w-[280px]">
               
               {/* Cyber Security Solutions */}
               <div className="relative group/sub">
                 <a href="#cyber-security" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">CYBER SECURITY SOLUTIONS</a>
-                <div className="absolute left-full top-0 ml-0 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200">
-                  <div className="bg-[#0d1a2d] border border-gray-700 rounded shadow-xl py-2 min-w-[320px] ml-1">
+                <div className="absolute left-full top-0 ml-1 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200 z-[110] pointer-events-none group-hover/sub:pointer-events-auto">
+                  <div className="bg-[#0d1a2d] border border-gray-700 rounded shadow-xl py-2 min-w-[320px]">
                     <a href="/services/application-security-testing" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">APPLICATION SECURITY TESTING</a>
                     <a href="/services/cs-testing-monitoring-services" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">CS TESTING AND MONITORING SERVICES</a>
                     <a href="/services/digital-forensics" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">DIGITAL FORENSICS</a>
@@ -77,8 +77,8 @@ export default function Navbar({ currentPage = 'home' }) {
               {/* DLP Solutions */}
               <div className="relative group/sub">
                 <a href="#dlp" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">DLP SOLUTIONS</a>
-                <div className="absolute left-full top-0 ml-0 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200">
-                  <div className="bg-[#0d1a2d] border border-gray-700 rounded shadow-xl py-2 min-w-[300px] ml-1">
+                <div className="absolute left-full top-0 ml-1 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200 z-[110] pointer-events-none group-hover/sub:pointer-events-auto">
+                  <div className="bg-[#0d1a2d] border border-gray-700 rounded shadow-xl py-2 min-w-[300px]">
                     <a href="/services/endpoint-dlp" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">ENDPOINT DATA LOSS PROTECTION</a>
                     <a href="/services/data-loss-prevention" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">CONTENT AWARE DATA LOSS PROTECTION</a>
                     <a href="/services/navoshield-dlp" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">NAVOSHIELD DATA LOSS PROTECTION</a>
@@ -91,8 +91,8 @@ export default function Navbar({ currentPage = 'home' }) {
               {/* Management Solutions */}
               <div className="relative group/sub">
                 <a href="#management" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">MANAGEMENT SOLUTIONS</a>
-                <div className="absolute left-full top-0 ml-0 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200">
-                  <div className="bg-[#0d1a2d] border border-gray-700 rounded shadow-xl py-2 min-w-[300px] ml-1">
+                <div className="absolute left-full top-0 ml-1 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200 z-[110] pointer-events-none group-hover/sub:pointer-events-auto">
+                  <div className="bg-[#0d1a2d] border border-gray-700 rounded shadow-xl py-2 min-w-[300px]">
                     <a href="/services/siem-management" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SECURITY INCIDENT EVENT MANAGEMENT</a>
                     <a href="/services/encryption-key-management" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">ENCRYPTION KEY MANAGEMENT</a>
                     <a href="/services/identity-access-management" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">IDENTIFY AND ACCESS MANAGEMENT</a>
@@ -104,8 +104,8 @@ export default function Navbar({ currentPage = 'home' }) {
               {/* Compliances Solutions */}
               <div className="relative group/sub">
                 <a href="#compliances" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">COMPLIANCES SOLUTIONS</a>
-                <div className="absolute left-full top-0 ml-0 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200">
-                  <div className="bg-[#0d1a2d] border border-gray-700 rounded shadow-xl py-2 min-w-[280px] ml-1">
+                <div className="absolute left-full top-0 ml-1 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200 z-[110] pointer-events-none group-hover/sub:pointer-events-auto">
+                  <div className="bg-[#0d1a2d] border border-gray-700 rounded shadow-xl py-2 min-w-[280px]">
                     <a href="/services/hipaa-compliances" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">HIPAA COMPLIANCES</a>
                     <a href="/services/pci-dss-security-compliances" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">PCI DSS SECURITY COMPLIANCES</a>
                     <a href="/services/soc1-compliance" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SOC1</a>
@@ -117,8 +117,8 @@ export default function Navbar({ currentPage = 'home' }) {
               {/* Audit Solutions */}
               <div className="relative group/sub">
                 <a href="#audit" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">AUDIT SOLUTIONS</a>
-                <div className="absolute left-full top-0 ml-0 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200">
-                  <div className="bg-[#0d1a2d] border border-gray-700 rounded shadow-xl py-2 min-w-[220px] ml-1">
+                <div className="absolute left-full top-0 ml-1 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200 z-[110] pointer-events-none group-hover/sub:pointer-events-auto">
+                  <div className="bg-[#0d1a2d] border border-gray-700 rounded shadow-xl py-2 min-w-[220px]">
                     <a href="/services/clear-audit" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">CLEAR AUDIT</a>
                     <a href="/services/sox-it-audit" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">ISO SECURITY AUDIT</a>
                     <a href="/services/soe-it-audit" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SOE IT AUDIT</a>
@@ -129,8 +129,8 @@ export default function Navbar({ currentPage = 'home' }) {
               {/* Risk Assessment Solutions */}
               <div className="relative group/sub">
                 <a href="#risk-assessment" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">RISK ASSESSMENT SOLUTIONS</a>
-                <div className="absolute left-full top-0 ml-0 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200">
-                  <div className="bg-[#0d1a2d] border border-gray-700 rounded shadow-xl py-2 min-w-[300px] ml-1">
+                <div className="absolute left-full top-0 ml-1 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200 z-[110] pointer-events-none group-hover/sub:pointer-events-auto">
+                  <div className="bg-[#0d1a2d] border border-gray-700 rounded shadow-xl py-2 min-w-[300px]">
                     <a href="/services/security-risk-assessment" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SECURITY RISK ASSESSMENT</a>
                     <a href="/services/vendor-risk-assessment" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">THIRD PARTY VENDOR RISK ASSESSMENT</a>
                     <a href="/services/security-threat-compliance" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SECURITY THREAT COMPLIANCE</a>
