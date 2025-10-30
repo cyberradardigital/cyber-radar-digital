@@ -14,7 +14,7 @@ export default function Blog() {
       category: "Security Testing",
       date: "January 15, 2025",
       excerpt: "Discover why penetration testing has become more critical than ever in protecting your organization from sophisticated cyber threats and data breaches.",
-      image: "/blog-pentest.jpg",
+      image: "/blog-pentest.webp",
       readTime: "5 min read",
       tags: ["Penetration Testing", "Cybersecurity", "Best Practices"]
     },
@@ -24,7 +24,7 @@ export default function Blog() {
       category: "Digital Forensics",
       date: "January 10, 2025",
       excerpt: "Learn how digital forensics helps organizations investigate cyber incidents, preserve evidence, and strengthen their security posture.",
-      image: "/blog-forensics.jpg",
+      image: "/blog-forensics.webp",
       readTime: "7 min read",
       tags: ["Digital Forensics", "Incident Response", "Investigation"]
     },
@@ -34,7 +34,7 @@ export default function Blog() {
       category: "Data Protection",
       date: "January 5, 2025",
       excerpt: "Explore comprehensive DLP strategies to safeguard sensitive information and prevent unauthorized data exfiltration in your organization.",
-      image: "/blog-dlp.jpg",
+      image: "/blog-dlp.webp",
       readTime: "6 min read",
       tags: ["DLP", "Data Security", "Compliance"]
     },
@@ -44,7 +44,7 @@ export default function Blog() {
       category: "Compliance",
       date: "December 28, 2024",
       excerpt: "Stay up-to-date with the latest PCI DSS requirements and ensure your payment processing systems meet industry security standards.",
-      image: "/blog-pci.jpg",
+      image: "/blog-pci.webp",
       readTime: "8 min read",
       tags: ["PCI DSS", "Compliance", "Payment Security"]
     },
@@ -54,7 +54,7 @@ export default function Blog() {
       category: "Application Security",
       date: "December 20, 2024",
       excerpt: "Dive deep into advanced application security testing techniques that go beyond traditional vulnerability scanning.",
-      image: "/blog-appsec.jpg",
+      image: "/blog-appsec.webp",
       readTime: "6 min read",
       tags: ["AppSec", "SAST", "DAST"]
     },
@@ -64,7 +64,7 @@ export default function Blog() {
       category: "Risk Management",
       date: "December 15, 2024",
       excerpt: "Learn how to develop and implement an effective security risk assessment framework to identify and mitigate threats proactively.",
-      image: "/blog-risk.jpg",
+      image: "/blog-risk.webp",
       readTime: "9 min read",
       tags: ["Risk Assessment", "Security Framework", "Threat Modeling"]
     }

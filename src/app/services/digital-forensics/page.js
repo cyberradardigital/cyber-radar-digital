@@ -41,7 +41,7 @@ export default function DigitalForensics() {
             {/* Right Image */}
             <div className="relative h-64 sm:h-80 md:h-96 lg:h-[400px] rounded-lg overflow-hidden shadow-2xl animate-fade-in-up delay-300">
               <img 
-                src="/digital_forensics.jpg" 
+                src="/digital_forensics.webp" 
                 alt="Digital Forensics" 
                 className="w-full h-full object-cover"
               />
@@ -69,10 +69,10 @@ export default function DigitalForensics() {
         </AnimatedSection>
 
         {/* Full Width Image Section */}
-        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16">
+        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16 max-w-4xl mx-auto">
           <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden rounded-lg shadow-xl">
             <img 
-              src="/markus-spiske-FXFz-sW0uwo-unsplash.jpg" 
+              src="/markus-spiske-FXFz-sW0uwo-unsplash.webp" 
               alt="Digital Forensics Process" 
               className="w-full h-full object-cover"
             />

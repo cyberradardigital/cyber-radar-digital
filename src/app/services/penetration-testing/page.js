@@ -34,7 +34,7 @@ export default function PenetrationTesting() {
             {/* Right Image */}
             <div className="relative h-64 sm:h-80 md:h-96 lg:h-[400px] rounded-lg overflow-hidden shadow-2xl animate-fade-in-up delay-300">
               <img 
-                src="/penetration.jpg" 
+                src="/penetration.webp" 
                 alt="Penetration Testing" 
                 className="w-full h-full object-cover"
               />
@@ -61,10 +61,10 @@ export default function PenetrationTesting() {
         </div>
 
         {/* Full Width Image Section */}
-        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16">
+        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16 max-w-4xl mx-auto">
           <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden rounded-lg shadow-xl">
             <img 
-              src="/markus-spiske-70Rir5vB96U-unsplash.jpg" 
+              src="/markus-spiske-70Rir5vB96U-unsplash.webp" 
               alt="Penetration Testing Process" 
               className="w-full h-full object-cover"
             />

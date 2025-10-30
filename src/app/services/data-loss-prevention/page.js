@@ -28,7 +28,7 @@ export default function DataLossPrevention() {
               </div>
             </div>
             <div className="relative h-64 sm:h-80 md:h-96 lg:h-[400px] rounded-lg overflow-hidden shadow-2xl animate-fade-in-up delay-300">
-              <img src="/data_loss.jpg" alt="Data Loss Prevention" className="w-full h-full object-cover" />
+              <img src="/data_loss.webp" alt="Data Loss Prevention" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -55,9 +55,9 @@ export default function DataLossPrevention() {
         </div>
 
         {/* Full Width Image Section */}
-        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16">
+        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16 max-w-4xl mx-auto">
           <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden rounded-lg shadow-xl">
-            <img src="/dan-nelson-AvSFPw5Tp68-unsplash.jpg" alt="Data Loss Prevention Process" className="w-full h-full object-cover" />
+            <img src="/dan-nelson-AvSFPw5Tp68-unsplash.webp" alt="Data Loss Prevention Process" className="w-full h-full object-cover" />
           </div>
         </div>
 

@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="mb-4 md:mb-6">
               <Image 
-                src="/logo-1.png" 
+                src="/logo-1.webp" 
                 alt="Cyber Radar Systems Logo"
                 width={140}
                 height={56}

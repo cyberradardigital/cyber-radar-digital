@@ -35,7 +35,7 @@ export default function IntegratedDLP() {
               </div>
             </div>
             <div className="relative h-64 sm:h-80 md:h-96 lg:h-[400px] rounded-lg overflow-hidden shadow-2xl animate-fade-in-up delay-300">
-              <img src="/flyd-63Sg6s3EocE-unsplash.jpg" alt="Integrated DLP" className="w-full h-full object-cover" />
+              <img src="/flyd-63Sg6s3EocE-unsplash.webp" alt="Integrated DLP" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -45,9 +45,9 @@ export default function IntegratedDLP() {
       <section className="py-8 sm:py-10 md:py-12 lg:py-16 xl:py-20 max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
         
         {/* Full Width Image Section */}
-        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16">
+        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16 max-w-4xl mx-auto">
           <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden rounded-lg shadow-xl">
-            <img src="/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt="Integrated DLP Process" className="w-full h-full object-cover" />
+            <img src="/christopher-gower-m_HRfLhgABo-unsplash.webp" alt="Integrated DLP Process" className="w-full h-full object-cover" />
           </div>
         </div>
 

@@ -34,7 +34,7 @@ export default function CSTestingMonitoringServices() {
             {/* Right Image */}
             <div className="relative h-64 sm:h-80 md:h-96 lg:h-[400px] rounded-lg overflow-hidden shadow-2xl animate-fade-in-up delay-300">
               <img 
-                src="/CS testing and monitoring services_banner.jfif" 
+                src="/CS testing and monitoring services_banner.webp" 
                 alt="CS Testing and Monitoring Services" 
                 className="w-full h-full object-cover"
               />
@@ -138,10 +138,10 @@ export default function CSTestingMonitoringServices() {
         </div>
 
         {/* Full Width Image Section */}
-        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16">
+        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16 max-w-4xl mx-auto">
           <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden rounded-lg shadow-xl">
             <img 
-              src="/maximalfocus-VT4rx775FT4-unsplash.jpg" 
+              src="/maximalfocus-VT4rx775FT4-unsplash.webp" 
               alt="CS Testing Process" 
               className="w-full h-full object-cover"
             />

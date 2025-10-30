@@ -31,7 +31,7 @@ export default function SOC2Compliance() {
               </div>
             </div>
             <div className="relative h-64 sm:h-80 md:h-96 lg:h-[400px] rounded-lg overflow-hidden shadow-2xl animate-fade-in-up delay-300">
-              <img src="/keepcoding-lVF2HLzjopw-unsplash.jpg" alt="SOC 2" className="w-full h-full object-cover" />
+              <img src="/keepcoding-lVF2HLzjopw-unsplash.webp" alt="SOC 2" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -41,9 +41,9 @@ export default function SOC2Compliance() {
       <section className="py-8 sm:py-10 md:py-12 lg:py-16 xl:py-20 max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
         
         {/* Full Width Image Section */}
-        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16">
+        <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16 max-w-4xl mx-auto">
           <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden rounded-lg shadow-xl">
-            <img src="/markus-spiske-uPXs5Vx5bIg-unsplash.jpg" alt="SOC 2 Process" className="w-full h-full object-cover" />
+            <img src="/markus-spiske-uPXs5Vx5bIg-unsplash.webp" alt="SOC 2 Process" className="w-full h-full object-cover" />
           </div>
         </div>
 

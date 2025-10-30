@@ -10,7 +10,7 @@ export default function Navbar({ currentPage = 'home' }) {
       <nav className="flex items-center justify-between px-4 md:px-8 py-2.5 max-w-7xl mx-auto relative">
         <a href="/" className="group">
         <Image 
-          src="/logo-1.png" 
+          src="/logo-1.webp" 
           alt="Cyber Radar Systems Logo" 
           width={120}
           height={40}
