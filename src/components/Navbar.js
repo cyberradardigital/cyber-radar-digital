@@ -62,14 +62,14 @@ export default function Navbar({ currentPage = 'home' }) {
                 <a href="#cyber-security" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">CYBER SECURITY SOLUTIONS</a>
                 <div className="absolute left-full top-0 ml-0 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200">
                   <div className="bg-[#0d1a2d] border border-gray-700 rounded shadow-xl py-2 min-w-[320px] ml-1">
-                    <a href="/application-security-testing" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">APPLICATION SECURITY TESTING</a>
-                    <a href="/cs-testing-monitoring-services" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">CS TESTING AND MONITORING SERVICES</a>
-                    <a href="/digital-forensics" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">DIGITAL FORENSICS</a>
-                    <a href="/penetration-testing" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">PENETRATION DATA LOSS PROTECTION</a>
-                    <a href="/data-loss-prevention" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">CONTENT AWARE DATA LOSS PROTECTION</a>
-                    <a href="/integrated-dlp" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">INTEGRATED DATA LOSS PROTECTION</a>
-                    <a href="/siem-intelligence" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SIEM AND INTELLIGENCE REFORM</a>
-                    <a href="/pci-dss-security-compliances" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SECURITY COMPLIANCE STANDARDS</a>
+                    <a href="/services/application-security-testing" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">APPLICATION SECURITY TESTING</a>
+                    <a href="/services/cs-testing-monitoring-services" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">CS TESTING AND MONITORING SERVICES</a>
+                    <a href="/services/digital-forensics" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">DIGITAL FORENSICS</a>
+                    <a href="/services/penetration-testing" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">PENETRATION DATA LOSS PROTECTION</a>
+                    <a href="/services/data-loss-prevention" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">CONTENT AWARE DATA LOSS PROTECTION</a>
+                    <a href="/services/integrated-dlp" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">INTEGRATED DATA LOSS PROTECTION</a>
+                    <a href="/services/siem-intelligence" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SIEM AND INTELLIGENCE REFORM</a>
+                    <a href="/services/pci-dss-security-compliances" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SECURITY COMPLIANCE STANDARDS</a>
                   </div>
                 </div>
               </div>
@@ -79,11 +79,11 @@ export default function Navbar({ currentPage = 'home' }) {
                 <a href="#dlp" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">DLP SOLUTIONS</a>
                 <div className="absolute left-full top-0 ml-0 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200">
                   <div className="bg-[#0d1a2d] border border-gray-700 rounded shadow-xl py-2 min-w-[300px] ml-1">
-                    <a href="/endpoint-dlp" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">ENDPOINT DATA LOSS PROTECTION</a>
-                    <a href="/data-loss-prevention" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">CONTENT AWARE DATA LOSS PROTECTION</a>
-                    <a href="/navoshield-dlp" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">NAVOSHIELD DATA LOSS PROTECTION</a>
-                    <a href="/security-architecture-review" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SECURITY ARCHITECHTURE REVIEW</a>
-                    <a href="/security-configuration-standards" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SECURITY CONFIGURATION STANDARDS</a>
+                    <a href="/services/endpoint-dlp" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">ENDPOINT DATA LOSS PROTECTION</a>
+                    <a href="/services/data-loss-prevention" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">CONTENT AWARE DATA LOSS PROTECTION</a>
+                    <a href="/services/navoshield-dlp" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">NAVOSHIELD DATA LOSS PROTECTION</a>
+                    <a href="/services/security-architecture-review" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SECURITY ARCHITECHTURE REVIEW</a>
+                    <a href="/services/security-configuration-standards" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SECURITY CONFIGURATION STANDARDS</a>
                   </div>
                 </div>
               </div>
@@ -93,10 +93,10 @@ export default function Navbar({ currentPage = 'home' }) {
                 <a href="#management" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">MANAGEMENT SOLUTIONS</a>
                 <div className="absolute left-full top-0 ml-0 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200">
                   <div className="bg-[#0d1a2d] border border-gray-700 rounded shadow-xl py-2 min-w-[300px] ml-1">
-                    <a href="/siem-management" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SECURITY INCIDENT EVENT MANAGEMENT</a>
-                    <a href="/encryption-key-management" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">ENCRYPTION KEY MANAGEMENT</a>
-                    <a href="/identity-access-management" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">IDENTIFY AND ACCESS MANAGEMENT</a>
-                    <a href="/vulnerability-management" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">VULNERABILITY MANAGEMENT</a>
+                    <a href="/services/siem-management" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SECURITY INCIDENT EVENT MANAGEMENT</a>
+                    <a href="/services/encryption-key-management" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">ENCRYPTION KEY MANAGEMENT</a>
+                    <a href="/services/identity-access-management" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">IDENTIFY AND ACCESS MANAGEMENT</a>
+                    <a href="/services/vulnerability-management" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">VULNERABILITY MANAGEMENT</a>
                   </div>
                 </div>
               </div>
@@ -106,10 +106,10 @@ export default function Navbar({ currentPage = 'home' }) {
                 <a href="#compliances" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">COMPLIANCES SOLUTIONS</a>
                 <div className="absolute left-full top-0 ml-0 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200">
                   <div className="bg-[#0d1a2d] border border-gray-700 rounded shadow-xl py-2 min-w-[280px] ml-1">
-                    <a href="/hipaa-compliances" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">HIPAA COMPLIANCES</a>
-                    <a href="/pci-dss-security-compliances" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">PCI DSS SECURITY COMPLIANCES</a>
-                    <a href="/soc1-compliance" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SOC1</a>
-                    <a href="/soc2-compliance" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SOC2</a>
+                    <a href="/services/hipaa-compliances" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">HIPAA COMPLIANCES</a>
+                    <a href="/services/pci-dss-security-compliances" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">PCI DSS SECURITY COMPLIANCES</a>
+                    <a href="/services/soc1-compliance" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SOC1</a>
+                    <a href="/services/soc2-compliance" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SOC2</a>
                   </div>
                 </div>
               </div>
@@ -119,9 +119,9 @@ export default function Navbar({ currentPage = 'home' }) {
                 <a href="#audit" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">AUDIT SOLUTIONS</a>
                 <div className="absolute left-full top-0 ml-0 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200">
                   <div className="bg-[#0d1a2d] border border-gray-700 rounded shadow-xl py-2 min-w-[220px] ml-1">
-                    <a href="/clear-audit" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">CLEAR AUDIT</a>
-                    <a href="/sox-it-audit" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">ISO SECURITY AUDIT</a>
-                    <a href="/soe-it-audit" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SOE IT AUDIT</a>
+                    <a href="/services/clear-audit" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">CLEAR AUDIT</a>
+                    <a href="/services/sox-it-audit" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">ISO SECURITY AUDIT</a>
+                    <a href="/services/soe-it-audit" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SOE IT AUDIT</a>
                   </div>
                 </div>
               </div>
@@ -131,10 +131,10 @@ export default function Navbar({ currentPage = 'home' }) {
                 <a href="#risk-assessment" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">RISK ASSESSMENT SOLUTIONS</a>
                 <div className="absolute left-full top-0 ml-0 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200">
                   <div className="bg-[#0d1a2d] border border-gray-700 rounded shadow-xl py-2 min-w-[300px] ml-1">
-                    <a href="/security-risk-assessment" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SECURITY RISK ASSESSMENT</a>
-                    <a href="/vendor-risk-assessment" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">THIRD PARTY VENDOR RISK ASSESSMENT</a>
-                    <a href="/security-threat-compliance" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SECURITY THREAT COMPLIANCE</a>
-                    <a href="/mobile-controls" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">MOBILE CONTROLS</a>
+                    <a href="/services/security-risk-assessment" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SECURITY RISK ASSESSMENT</a>
+                    <a href="/services/vendor-risk-assessment" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">THIRD PARTY VENDOR RISK ASSESSMENT</a>
+                    <a href="/services/security-threat-compliance" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">SECURITY THREAT COMPLIANCE</a>
+                    <a href="/services/mobile-controls" className="block px-6 py-3 text-white hover:bg-[#1B3247] hover:text-[#00D68F] transition-colors text-xs">MOBILE CONTROLS</a>
                   </div>
                 </div>
               </div>
@@ -190,42 +190,42 @@ export default function Navbar({ currentPage = 'home' }) {
               <div className="text-white font-semibold py-2 text-sm">SOLUTIONS</div>
               
               <div className="text-gray-300 py-2 text-sm pl-2 font-medium">CYBER SECURITY SOLUTIONS</div>
-              <a href="/application-security-testing" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Application Security Testing</a>
-              <a href="/cs-testing-monitoring-services" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• CS Testing and Monitoring Services</a>
-              <a href="/digital-forensics" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Digital Forensics</a>
-              <a href="/penetration-testing" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Penetration Data Loss Protection</a>
-              <a href="/data-loss-prevention" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Content Aware Data Loss Protection</a>
-              <a href="/pci-dss-security-compliances" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Security Compliance Standards</a>
+              <a href="/services/application-security-testing" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Application Security Testing</a>
+              <a href="/services/cs-testing-monitoring-services" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• CS Testing and Monitoring Services</a>
+              <a href="/services/digital-forensics" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Digital Forensics</a>
+              <a href="/services/penetration-testing" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Penetration Data Loss Protection</a>
+              <a href="/services/data-loss-prevention" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Content Aware Data Loss Protection</a>
+              <a href="/services/pci-dss-security-compliances" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Security Compliance Standards</a>
               
               <div className="text-gray-300 py-2 text-sm pl-2 font-medium mt-2">DLP SOLUTIONS</div>
-              <a href="/endpoint-dlp" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Endpoint Data Loss Protection</a>
-              <a href="/data-loss-prevention" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Content Aware Data Loss Protection</a>
-              <a href="/navoshield-dlp" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Navoshield Data Loss Protection</a>
-              <a href="/security-architecture-review" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Security Architechture Review</a>
-              <a href="/security-configuration-standards" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Security Configuration Standards</a>
+              <a href="/services/endpoint-dlp" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Endpoint Data Loss Protection</a>
+              <a href="/services/data-loss-prevention" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Content Aware Data Loss Protection</a>
+              <a href="/services/navoshield-dlp" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Navoshield Data Loss Protection</a>
+              <a href="/services/security-architecture-review" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Security Architechture Review</a>
+              <a href="/services/security-configuration-standards" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Security Configuration Standards</a>
               
               <div className="text-gray-300 py-2 text-sm pl-2 font-medium mt-2">MANAGEMENT SOLUTIONS</div>
-              <a href="/siem-management" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Security Incident Event Management</a>
-              <a href="/encryption-key-management" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Encryption Key Management</a>
-              <a href="/identity-access-management" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Identity and Access Management</a>
-              <a href="/vulnerability-management" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Vulnerability Management</a>
+              <a href="/services/siem-management" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Security Incident Event Management</a>
+              <a href="/services/encryption-key-management" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Encryption Key Management</a>
+              <a href="/services/identity-access-management" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Identity and Access Management</a>
+              <a href="/services/vulnerability-management" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Vulnerability Management</a>
               
               <div className="text-gray-300 py-2 text-sm pl-2 font-medium mt-2">COMPLIANCES SOLUTIONS</div>
-              <a href="/hipaa-compliances" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• HIPAA Compliances</a>
-              <a href="/pci-dss-security-compliances" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• PCI DSS Security Compliances</a>
-              <a href="/soc1-compliance" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• SOC1</a>
-              <a href="/soc2-compliance" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• SOC2</a>
+              <a href="/services/hipaa-compliances" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• HIPAA Compliances</a>
+              <a href="/services/pci-dss-security-compliances" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• PCI DSS Security Compliances</a>
+              <a href="/services/soc1-compliance" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• SOC1</a>
+              <a href="/services/soc2-compliance" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• SOC2</a>
               
               <div className="text-gray-300 py-2 text-sm pl-2 font-medium mt-2">AUDIT SOLUTIONS</div>
-              <a href="/clear-audit" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• CLEAR Audit</a>
-              <a href="/sox-it-audit" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• ISO Security Audit</a>
-              <a href="/soe-it-audit" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• SOE IT Audit</a>
+              <a href="/services/clear-audit" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• CLEAR Audit</a>
+              <a href="/services/sox-it-audit" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• ISO Security Audit</a>
+              <a href="/services/soe-it-audit" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• SOE IT Audit</a>
               
               <div className="text-gray-300 py-2 text-sm pl-2 font-medium mt-2">RISK ASSESSMENT SOLUTIONS</div>
-              <a href="/security-risk-assessment" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Security Risk Assessment</a>
-              <a href="/vendor-risk-assessment" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Third Party Vendor Risk Assessment</a>
-              <a href="/security-threat-compliance" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Security Threat Compliance</a>
-              <a href="/mobile-controls" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Mobile Controls</a>
+              <a href="/services/security-risk-assessment" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Security Risk Assessment</a>
+              <a href="/services/vendor-risk-assessment" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Third Party Vendor Risk Assessment</a>
+              <a href="/services/security-threat-compliance" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Security Threat Compliance</a>
+              <a href="/services/mobile-controls" className="block text-gray-400 hover:text-[#00D68F] transition-colors py-1 text-xs pl-4">• Mobile Controls</a>
             </div>
             
             <a href="/recruitment" className="text-white hover:text-[#00D68F] transition-colors py-2">RECRUITMENT</a>
