@@ -38,15 +38,15 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-10 md:gap-16">
           <div className="flex-1 text-center md:text-left">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 md:mb-8">
-              Top 12 In-Demand<br />
-              <span className="text-[#00B0FF]">Cybersecurity Services</span>
+              Protecting Data<br />
+              <span className="text-[#00B0FF]"> Ensuring Compliance.</span>
             </h1>
             <p className="text-[#A7B6C5] text-base md:text-lg mb-8 md:mb-10 max-w-md mx-auto md:mx-0 leading-relaxed">
-              Protect your business from evolving cyber threats with the most advanced and globally recognized cybersecurity solutions.
+              Robust cybersecurity practices aligned with ISO, SOC, HIPAA, GDPR, and global security frameworks to maintain trust and continuity
             </p>
-            <button className="bg-[#00B0FF] hover:bg-[#00D68F] text-white px-6 md:px-8 py-2.5 md:py-3 rounded transition-colors font-medium text-sm md:text-base">
+            <a href="/contact" className="inline-block bg-[#00B0FF] hover:bg-[#00D68F] text-white px-6 md:px-8 py-2.5 md:py-3 rounded transition-colors font-medium text-sm md:text-base">
               Get a Free Security Audit
-            </button>
+            </a>
           </div>
           <div className="flex-1 flex items-center justify-center mt-8 md:mt-0">
             {/* Video Banner */}
@@ -67,7 +67,7 @@ export default function Home() {
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#0F1E2E]/95 to-transparent p-6">
                 <div className="grid grid-cols-2 gap-4">
                   <div className="text-center">
-                    <div className="text-[#00D68F] font-bold text-2xl mb-1">500+</div>
+                    <div className="text-[#00D68F] font-bold text-2xl mb-1">100+</div>
                     <div className="text-gray-300 text-xs uppercase">Global Clients</div>
                   </div>
                   <div className="text-center">
