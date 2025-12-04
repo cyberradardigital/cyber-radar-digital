@@ -1,5 +1,6 @@
 'use client';
 import { useEffect } from 'react';
+import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
@@ -34,23 +35,23 @@ export default function Home() {
       <Navbar currentPage="home" />
 
       {/* Hero Section - DARK */}
-      <section className="px-4 md:px-8 py-16 md:py-24 lg:py-28 max-w-7xl mx-auto bg-gradient-to-br from-gray-900 to-gray-800 pt-24 md:pt-28">
+      <section className="px-4 md:px-8 py-16 md:py-24 lg:py-28 max-w-7xl mx-auto bg-gradient-to-br from-gray-900 to-gray-800 pt-24 md:pt-28" data-animate="fade-in">
         <div className="flex flex-col md:flex-row items-center justify-between gap-10 md:gap-16">
           <div className="flex-1 text-center md:text-left">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 md:mb-8">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 md:mb-8" data-animate="fade-up">
               Protecting Data<br />
               <span className="text-[#00B0FF]"> Ensuring Compliance.</span>
             </h1>
-            <p className="text-[#A7B6C5] text-base md:text-lg mb-8 md:mb-10 max-w-md mx-auto md:mx-0 leading-relaxed">
+            <p className="text-[#A7B6C5] text-base md:text-lg mb-8 md:mb-10 max-w-md mx-auto md:mx-0 leading-relaxed" data-animate="fade-up" data-delay="0.1">
               Robust cybersecurity practices aligned with ISO, SOC, HIPAA, GDPR, and global security frameworks to maintain trust and continuity
             </p>
-            <a href="/contact" className="inline-block bg-[#00B0FF] hover:bg-[#00D68F] text-white px-6 md:px-8 py-2.5 md:py-3 rounded transition-colors font-medium text-sm md:text-base">
+            <a href="/contact" className="inline-block bg-[#00B0FF] hover:bg-[#00D68F] text-white px-6 md:px-8 py-2.5 md:py-3 rounded transition-colors font-medium text-sm md:text-base" data-animate="zoom-in" data-delay="0.2">
               Get a Free Security Audit
             </a>
           </div>
           <div className="flex-1 flex items-center justify-center mt-8 md:mt-0">
             {/* Video Banner */}
-            <div className="relative w-full max-w-lg h-[300px] md:h-[400px] rounded-2xl overflow-hidden border-2 border-[#00B0FF] shadow-2xl shadow-[#00B0FF]/20 float-animation">
+            <div className="relative w-full max-w-lg h-[300px] md:h-[400px] rounded-2xl overflow-hidden border-2 border-[#00B0FF] shadow-2xl shadow-[#00B0FF]/20 float-animation" data-animate="zoom-in" data-delay="0.1">
               <video 
                 autoPlay 
                 loop 
@@ -64,14 +65,14 @@ export default function Home() {
               </video>
               
               {/* Optional overlay with stats */}
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#0F1E2E]/95 to-transparent p-6">
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#0F1E2E]/95 to-transparent p-6" data-animate="fade-in" data-delay="0.2">
                 <div className="grid grid-cols-2 gap-4">
                   <div className="text-center">
-                    <div className="text-[#00D68F] font-bold text-2xl mb-1">100+</div>
+                    <div className="text-[#00D68F] font-bold text-2xl mb-1" data-animate="fade-up" data-delay="0.25">1 00+</div>
                     <div className="text-gray-300 text-xs uppercase">Global Clients</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-[#00B0FF] font-bold text-2xl mb-1">24/7</div>
+                    <div className="text-[#00B0FF] font-bold text-2xl mb-1" data-animate="fade-up" data-delay="0.3">24/7</div>
                     <div className="text-gray-300 text-xs uppercase">Support</div>
                   </div>
                 </div>
@@ -82,24 +83,24 @@ export default function Home() {
       </section>
 
       {/* Top 12 In-Demand Cybersecurity Services - LIGHT */}
-      <section className="relative px-4 md:px-8 py-16 md:py-24 bg-gradient-to-br from-blue-50 via-white to-cyan-50 border-y border-blue-100 overflow-hidden">
+      <section className="relative px-4 md:px-8 py-16 md:py-24 bg-gradient-to-br from-blue-50 via-white to-cyan-50 border-y border-blue-100 overflow-hidden" data-animate="fade-in">
         {/* Decorative Background Elements */}
         <div className="absolute inset-0 opacity-30">
           <div className="absolute top-20 left-10 w-72 h-72 bg-blue-200 rounded-full blur-3xl"></div>
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-cyan-200 rounded-full blur-3xl"></div>
         </div>
         <div className="relative max-w-7xl mx-auto">
-        <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-600 via-cyan-600 to-blue-700 bg-clip-text text-transparent">
+        <div className="text-center mb-12 md:mb-16" data-animate="fade-up">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-600 via-cyan-600 to-blue-700 bg-clip-text text-transparent" data-animate="fade-up">
             Our High-Demand Services
           </h2>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto" data-animate="fade-up" data-delay="0.1">
             Comprehensive cybersecurity solutions to protect your digital infrastructure
           </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {/* Service 1 */}
-          <div className="group relative bg-gradient-to-br from-white via-purple-50 to-fuchsia-50 p-6 md:p-8 rounded-2xl border-2 border-purple-200 shadow-lg hover:shadow-2xl hover:border-purple-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden">
+          <Link href="/services/managed-security-mdr" className="group relative bg-gradient-to-br from-white via-purple-50 to-fuchsia-50 p-6 md:p-8 rounded-2xl border-2 border-purple-200 shadow-lg hover:shadow-2xl hover:border-purple-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden block">
             <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-purple-400/30 to-fuchsia-400/30 rounded-bl-full"></div>
             <div className="absolute top-3 right-3 w-8 h-8 bg-purple-500 text-white rounded-full flex items-center justify-center text-xs font-bold">01</div>
             <div className="relative">
@@ -109,6 +110,13 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                   </svg>
                 </div>
+              </div>
+              <div className="mb-4 h-32 overflow-hidden rounded-lg">
+                <img 
+                  src="/submodule_images/pexels-tima-miroshnichenko-5380589.jpg" 
+                  alt="Managed Security Services"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-purple-600 transition-colors">Managed Security & MDR</h3>
               <p className="text-gray-600 text-sm leading-relaxed mb-4">
@@ -121,9 +129,9 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-          </div>
+          </Link>
           {/* Service 2 */}
-          <div className="group relative bg-gradient-to-br from-white via-blue-50 to-cyan-50 p-6 md:p-8 rounded-2xl border-2 border-blue-200 shadow-lg hover:shadow-2xl hover:border-blue-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden">
+          <Link href="/services/cloud-security" className="group relative bg-gradient-to-br from-white via-blue-50 to-cyan-50 p-6 md:p-8 rounded-2xl border-2 border-blue-200 shadow-lg hover:shadow-2xl hover:border-blue-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden block">
             <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-blue-400/30 to-cyan-400/30 rounded-bl-full"></div>
             <div className="absolute top-3 right-3 w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center text-xs font-bold">02</div>
             <div className="relative">
@@ -133,6 +141,13 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
                   </svg>
                 </div>
+              </div>
+              <div className="mb-4 h-32 overflow-hidden rounded-lg">
+                <img 
+                  src="/submodule_images/pexels-cottonbro-5473955.jpg" 
+                  alt="Cloud Security"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-blue-600 transition-colors">Cloud Security</h3>
               <p className="text-gray-600 text-sm leading-relaxed mb-4">
@@ -145,9 +160,9 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-          </div>
+          </Link>
           {/* Service 3 */}
-          <div className="group relative bg-gradient-to-br from-white via-emerald-50 to-teal-50 p-6 md:p-8 rounded-2xl border-2 border-emerald-200 shadow-lg hover:shadow-2xl hover:border-emerald-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden">
+          <Link href="/services/identity-access-management" className="group relative bg-gradient-to-br from-white via-emerald-50 to-teal-50 p-6 md:p-8 rounded-2xl border-2 border-emerald-200 shadow-lg hover:shadow-2xl hover:border-emerald-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden block">
             <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-emerald-400/30 to-teal-400/30 rounded-bl-full"></div>
             <div className="absolute top-3 right-3 w-8 h-8 bg-emerald-500 text-white rounded-full flex items-center justify-center text-xs font-bold">03</div>
             <div className="relative">
@@ -158,8 +173,15 @@ export default function Home() {
                   </svg>
                 </div>
               </div>
+              <div className="mb-4 h-32 overflow-hidden rounded-lg">
+                <img 
+                  src="/submodule_images/pexels-kevin-ku-92347-577585.jpg" 
+                  alt="Identity Access Management"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-emerald-600 transition-colors">Identity & Access Management</h3>
-              <p className="text-gray-600 text-sm leading-relaxed mb-4">
+              <p className="texst-gray-600 text-sm leading-relaxed mb-4">
                 Secure authentication, SSO, and privilege control across hybrid systems.
               </p>
               <div className="flex items-center text-emerald-600 font-semibold text-sm group-hover:translate-x-2 transition-transform">
@@ -169,9 +191,9 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-          </div>
+          </Link>
           {/* Service 4 */}
-          <div className="group relative bg-gradient-to-br from-white via-orange-50 to-amber-50 p-6 md:p-8 rounded-2xl border-2 border-orange-200 shadow-lg hover:shadow-2xl hover:border-orange-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden">
+          <Link href="/services/application-api-security" className="group relative bg-gradient-to-br from-white via-orange-50 to-amber-50 p-6 md:p-8 rounded-2xl border-2 border-orange-200 shadow-lg hover:shadow-2xl hover:border-orange-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden block">
             <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-orange-400/30 to-amber-400/30 rounded-bl-full"></div>
             <div className="absolute top-3 right-3 w-8 h-8 bg-orange-500 text-white rounded-full flex items-center justify-center text-xs font-bold">04</div>
             <div className="relative">
@@ -181,6 +203,13 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                   </svg>
                 </div>
+              </div>
+              <div className="mb-4 h-32 overflow-hidden rounded-lg">
+                <img 
+                  src="/submodule_images/pexels-cottonbro-5473399.jpg" 
+                  alt="Application API Security"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-orange-600 transition-colors">Application & API Security</h3>
               <p className="text-gray-600 text-sm leading-relaxed mb-4">
@@ -193,9 +222,9 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-          </div>
+          </Link>
           {/* Service 5 */}
-          <div className="group relative bg-gradient-to-br from-white via-pink-50 to-rose-50 p-6 md:p-8 rounded-2xl border-2 border-pink-200 shadow-lg hover:shadow-2xl hover:border-pink-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden">
+          <Link href="/services/data-privacy-compliance" className="group relative bg-gradient-to-br from-white via-pink-50 to-rose-50 p-6 md:p-8 rounded-2xl border-2 border-pink-200 shadow-lg hover:shadow-2xl hover:border-pink-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden block">
             <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-pink-400/30 to-rose-400/30 rounded-bl-full"></div>
             <div className="absolute top-3 right-3 w-8 h-8 bg-pink-500 text-white rounded-full flex items-center justify-center text-xs font-bold">05</div>
             <div className="relative">
@@ -205,6 +234,13 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                 </div>
+              </div>
+              <div className="mb-4 h-32 overflow-hidden rounded-lg">
+                <img 
+                  src="/submodule_images/pexels-divinetechygirl-1181332.jpg" 
+                  alt="Data Privacy Compliance"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-pink-600 transition-colors">Data Security & Privacy Compliance</h3>
               <p className="text-gray-600 text-sm leading-relaxed mb-4">
@@ -217,9 +253,9 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-          </div>
+          </Link>
           {/* Service 6 */}
-          <div className="group relative bg-gradient-to-br from-white via-indigo-50 to-violet-50 p-6 md:p-8 rounded-2xl border-2 border-indigo-200 shadow-lg hover:shadow-2xl hover:border-indigo-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden">
+          <Link href="/services/network-security-zero-trust" className="group relative bg-gradient-to-br from-white via-indigo-50 to-violet-50 p-6 md:p-8 rounded-2xl border-2 border-indigo-200 shadow-lg hover:shadow-2xl hover:border-indigo-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden block">
             <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-indigo-400/30 to-violet-400/30 rounded-bl-full"></div>
             <div className="absolute top-3 right-3 w-8 h-8 bg-indigo-500 text-white rounded-full flex items-center justify-center text-xs font-bold">06</div>
             <div className="relative">
@@ -229,6 +265,13 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
                   </svg>
                 </div>
+              </div>
+              <div className="mb-4 h-32 overflow-hidden rounded-lg">
+                <img 
+                  src="/submodule_images/pexels-tima-miroshnichenko-5380642.jpg" 
+                  alt="Network Security Zero Trust"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-indigo-600 transition-colors">Network Security / Zero-Trust</h3>
               <p className="text-gray-600 text-sm leading-relaxed mb-4">
@@ -241,9 +284,9 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-          </div>
+          </Link>
           {/* Service 7 */}
-          <div className="group relative bg-gradient-to-br from-white via-green-50 to-lime-50 p-6 md:p-8 rounded-2xl border-2 border-green-200 shadow-lg hover:shadow-2xl hover:border-green-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden">
+          <Link href="/services/iot-ot-security" className="group relative bg-gradient-to-br from-white via-green-50 to-lime-50 p-6 md:p-8 rounded-2xl border-2 border-green-200 shadow-lg hover:shadow-2xl hover:border-green-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden block">
             <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-green-400/30 to-lime-400/30 rounded-bl-full"></div>
             <div className="absolute top-3 right-3 w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center text-xs font-bold">07</div>
             <div className="relative">
@@ -253,6 +296,13 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
                 </div>
+              </div>
+              <div className="mb-4 h-32 overflow-hidden rounded-lg">
+                <img 
+                  src="/submodule_images/pexels-sora-shimazaki-5935787.jpg" 
+                  alt="IoT OT Security"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-green-600 transition-colors">IoT & OT Security</h3>
               <p className="text-gray-600 text-sm leading-relaxed mb-4">
@@ -265,9 +315,9 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-          </div>
+          </Link>
           {/* Service 8 */}
-          <div className="group relative bg-gradient-to-br from-white via-red-50 to-orange-50 p-6 md:p-8 rounded-2xl border-2 border-red-200 shadow-lg hover:shadow-2xl hover:border-red-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden">
+          <Link href="/services/risk-supply-chain-security" className="group relative bg-gradient-to-br from-white via-red-50 to-orange-50 p-6 md:p-8 rounded-2xl border-2 border-red-200 shadow-lg hover:shadow-2xl hover:border-red-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden block">
             <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-red-400/30 to-orange-400/30 rounded-bl-full"></div>
             <div className="absolute top-3 right-3 w-8 h-8 bg-red-500 text-white rounded-full flex items-center justify-center text-xs font-bold">08</div>
             <div className="relative">
@@ -277,6 +327,13 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
+              </div>
+              <div className="mb-4 h-32 overflow-hidden rounded-lg">
+                <img 
+                  src="/submodule_images/pexels-abdullah-bin-mubarak-2067629-3693732.jpg" 
+                  alt="Risk Supply Chain Security"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-red-600 transition-colors">Risk & Supply-Chain Security</h3>
               <p className="text-gray-600 text-sm leading-relaxed mb-4">
@@ -289,9 +346,9 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-          </div>
+          </Link>
           {/* Service 9 */}
-          <div className="group relative bg-gradient-to-br from-white via-yellow-50 to-amber-50 p-6 md:p-8 rounded-2xl border-2 border-yellow-200 shadow-lg hover:shadow-2xl hover:border-yellow-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden">
+          <Link href="/services/incident-response-forensics" className="group relative bg-gradient-to-br from-white via-yellow-50 to-amber-50 p-6 md:p-8 rounded-2xl border-2 border-yellow-200 shadow-lg hover:shadow-2xl hover:border-yellow-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden block">
             <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-yellow-400/30 to-amber-400/30 rounded-bl-full"></div>
             <div className="absolute top-3 right-3 w-8 h-8 bg-yellow-500 text-white rounded-full flex items-center justify-center text-xs font-bold">09</div>
             <div className="relative">
@@ -301,6 +358,13 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                   </svg>
                 </div>
+              </div>
+              <div className="mb-4 h-32 overflow-hidden rounded-lg">
+                <img 
+                  src="/submodule_images/pexels-shkrabaanthony-5475752.jpg" 
+                  alt="Incident Response Forensics"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-yellow-600 transition-colors">Incident Response & Forensics</h3>
               <p className="text-gray-600 text-sm leading-relaxed mb-4">
@@ -313,9 +377,9 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-          </div>
+          </Link>
           {/* Service 10 */}
-          <div className="group relative bg-gradient-to-br from-white via-purple-50 to-indigo-50 p-6 md:p-8 rounded-2xl border-2 border-purple-200 shadow-lg hover:shadow-2xl hover:border-purple-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden">
+          <Link href="/services/threat-intelligence-hunting" className="group relative bg-gradient-to-br from-white via-purple-50 to-indigo-50 p-6 md:p-8 rounded-2xl border-2 border-purple-200 shadow-lg hover:shadow-2xl hover:border-purple-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden block">
             <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-purple-400/30 to-indigo-400/30 rounded-bl-full"></div>
             <div className="absolute top-3 right-3 w-8 h-8 bg-purple-600 text-white rounded-full flex items-center justify-center text-xs font-bold">10</div>
             <div className="relative">
@@ -325,6 +389,13 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                   </svg>
                 </div>
+              </div>
+              <div className="mb-4 h-32 overflow-hidden rounded-lg">
+                <img 
+                  src="/submodule_images/pexels-mikhail-nilov-7534101.jpg" 
+                  alt="Threat Intelligence Hunting"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-purple-600 transition-colors">Threat Intelligence & Hunting</h3>
               <p className="text-gray-600 text-sm leading-relaxed mb-4">
@@ -337,9 +408,9 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-          </div>
+          </Link>
           {/* Service 11 */}
-          <div className="group relative bg-gradient-to-br from-white via-cyan-50 to-sky-50 p-6 md:p-8 rounded-2xl border-2 border-cyan-200 shadow-lg hover:shadow-2xl hover:border-cyan-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden">
+          <Link href="/services/security-awareness-training" className="group relative bg-gradient-to-br from-white via-cyan-50 to-sky-50 p-6 md:p-8 rounded-2xl border-2 border-cyan-200 shadow-lg hover:shadow-2xl hover:border-cyan-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden block">
             <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-cyan-400/30 to-sky-400/30 rounded-bl-full"></div>
             <div className="absolute top-3 right-3 w-8 h-8 bg-cyan-500 text-white rounded-full flex items-center justify-center text-xs font-bold">11</div>
             <div className="relative">
@@ -349,6 +420,13 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                   </svg>
                 </div>
+              </div>
+              <div className="mb-4 h-32 overflow-hidden rounded-lg">
+                <img 
+                  src="/submodule_images/pexels-fauxels-3184291.jpg" 
+                  alt="Security Awareness Training"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-cyan-600 transition-colors">Security Awareness & Training</h3>
               <p className="text-gray-600 text-sm leading-relaxed mb-4">
@@ -361,9 +439,9 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-          </div>
+          </Link>
           {/* Service 12 */}
-          <div className="group relative bg-gradient-to-br from-white via-teal-50 to-emerald-50 p-6 md:p-8 rounded-2xl border-2 border-teal-200 shadow-lg hover:shadow-2xl hover:border-teal-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden">
+          <Link href="/services/secure-cloud-migration" className="group relative bg-gradient-to-br from-white via-teal-50 to-emerald-50 p-6 md:p-8 rounded-2xl border-2 border-teal-200 shadow-lg hover:shadow-2xl hover:border-teal-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:scale-[1.03] overflow-hidden block">
             <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-teal-400/30 to-emerald-400/30 rounded-bl-full"></div>
             <div className="absolute top-3 right-3 w-8 h-8 bg-teal-500 text-white rounded-full flex items-center justify-center text-xs font-bold">12</div>
             <div className="relative">
@@ -374,18 +452,25 @@ export default function Home() {
                   </svg>
                 </div>
               </div>
+              <div className="mb-4 h-32 overflow-hidden rounded-lg">
+                <img 
+                  src="/submodule_images/pexels-markusspiske-2061168.jpg" 
+                  alt="Secure Cloud Migration"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-teal-600 transition-colors">Secure Cloud Migration</h3>
               <p className="text-gray-600 text-sm leading-relaxed mb-4">
                 Security assessment and compliance during digital transformation.
               </p>
               <div className="flex items-center text-teal-600 font-semibold text-sm group-hover:translate-x-2 transition-transform">
-                <span>Learn More</span>
+                <span>Read More</span>
                 <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
                 </svg>
               </div>
             </div>
-          </div>
+          </Link>
         </div>
         </div>
       </section>
